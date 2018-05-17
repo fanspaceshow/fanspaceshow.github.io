@@ -1,2 +1,4 @@
 title: Jimmyfan`s Blog
 theme: jekyll-theme-cayman
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
