@@ -1,3 +1,5 @@
+# @QueryParam和@PathParam使用方法比较
+
 1. 先来看@queryparam  
    先看例子: 
 ```java
