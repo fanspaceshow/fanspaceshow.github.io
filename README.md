@@ -10,5 +10,5 @@
 ### <span id="java">Java</span>  
 [Spring获取参数注解](2018/spring-get-data.md)  
 
-### <span id="ubuntu">ubuntu/span>  
+### <span id="ubuntu">ubuntu</span>  
 [ubuntu shell](2018/ubuntu-shell.md)
