@@ -30,7 +30,7 @@ D:\Program Files\Java\jdk1.6.0_45
 2，CLASSPATH为java加载类(class or lib)路径，只有类在classpath中，java命令才能识别。==
 
 - 2 执行 service.bat install 如下图：
-![image](http://note.youdao.com/yws/public/resource/34a3e5d11a88c4654113793e73cff07a/xmlnote/E22892D179254ADAA38B7814D267C554/9176)
+![image](img/clipboard.png)
 - 3 修改 jvm或 PS Perm Gen内存
 ![image](http://note.youdao.com/yws/public/resource/34a3e5d11a88c4654113793e73cff07a/xmlnote/11B25E24634E4299867E16D6450FE936/9173)
 
