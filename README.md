@@ -1,4 +1,5 @@
-# 目录  
+[如果喜欢我的文章，请点击收藏](https://github.com/fanspaceshow/fanspaceshow.github.io)  
+# 目录  
 - &nbsp;&nbsp;[学习经验](#learn)  
 - &nbsp;&nbsp;[Java](#java)  
 - &nbsp;&nbsp;[Ubuntu](#ubuntu)  
