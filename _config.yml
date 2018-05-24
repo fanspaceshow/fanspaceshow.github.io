@@ -1,6 +1,7 @@
-title: Jimmyfan`s Blog
+title: JF Blog
 description: 学习笔记
 theme: jekyll-theme-cayman
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 show_downloads: true
+google_analytics:
