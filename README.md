@@ -14,6 +14,7 @@
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
 [ubuntu shell](2018/ubuntu-shell.md)  
+[Ubuntu下pip3的安装、升级、卸载](2018/ubuntu-pip3.md)  
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
 [(function($){...})(jQuery) 含义](2018/jquery-function.md)  
