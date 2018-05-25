@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="{{ '/2018/img/timg.png?v=' | append: site.github.build_revision | relative_url }}" type="image/x-icon" />
     <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function () {
+          if($(window).scrollTop()>=100) {
+             $("#toTop").fadeIn(400); /* 当滑动到不小于 100px 时，回到顶部图标显示 */
+          }else {
+             $("#toTop").fadeOut(400); /* 当滑动到小于(页面被卷去的高度) 100px 时，回到顶部图标隐藏 */
+          }
+       });
+      $("#toTop").click(function () { 
+         $("html, body").animate({scrollTop: 0}, 100); /* 持续时间为 100ms */
+         return false;
+       });
+    </script>
   </head>
   <body>
     <section class="page-header">
