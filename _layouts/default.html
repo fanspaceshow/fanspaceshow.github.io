@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="{{ '/2018/img/timg.png?v=' | append: site.github.build_revision | relative_url }}" type="image/x-icon" />
   </head>
   <body>
@@ -27,6 +28,11 @@
     <section class="main-content">
       {{ content }}
 
+      
+      
+      <a href="" title="回到顶部" id="toTop">
+          <span id="arrow"></span>
+      </a>
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
