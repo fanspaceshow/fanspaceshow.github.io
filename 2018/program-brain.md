@@ -792,3 +792,5 @@ if (found.isPresent()) {
 1. 先把眼前的问题解决掉，解决好，再考虑将来的扩展问题。
 2. 先写出可用的代码，反复推敲，再考虑是否需要重用的问题。
 3. 先写出可用，简单，明显没有bug的代码，再考虑测试的问题。
+
+<a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy" target="_blank">点击查看原文</a>
