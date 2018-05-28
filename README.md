@@ -17,7 +17,7 @@
 [《Java知识点列表》V1.0](2018/java-learn-point.md)  
 
 ### <span id="android">&nbsp;Android</span>  
-  
+[Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
   
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
