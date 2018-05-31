@@ -93,19 +93,21 @@ void foo() {
 }
 ```
 &nbsp;&nbsp;其中a()，b()，c()都是一样的，只有d()和e()根据系统有所不同。那么你可以把a()，b()，c()提取出去：
-```Java
+```java
 void preFoo() {
   a();
   b()
   c();
+```
 然后制造两个函数：
-
+```java
 void fooMacOS() {
   preFoo();
   d();
 }
+```
 和
-
+```java
 void fooOther() {
   preFoo();
   e();
@@ -114,7 +116,7 @@ void fooOther() {
 &nbsp;&nbsp;这样一来，我们既共享了代码，又做到了每个函数只做一件简单的事情。这样的代码，逻辑就更加清晰。
 
 &nbsp;&nbsp;避免使用全局变量和类成员（class member）来传递信息，尽量使用局部变量和参数。有些人写代码，经常用类成员来传递信息，就像这样：
-```Java
+```java
  class A {
    String x;
 
@@ -133,7 +135,7 @@ void fooOther() {
 &nbsp;&nbsp;首先，他使用findX()，把一个值写入成员x。然后，使用x的值。这样，x就变成了findX和print之间的数据通道。由于x属于class A，这样程序就失去了模块化的结构。由于这两个函数依赖于成员x，它们不再有明确的输入和输出，而是依赖全局的数据。findX和foo不再能够离开class A而存在，而且由于类成员还有可能被其他代码改变，代码变得难以理解，难以确保正确性。
 
 &nbsp;&nbsp;如果你使用局部变量而不是类成员来传递信息，那么这两个函数就不需要依赖于某一个class，而且更加容易理解，不易出错：
-```Java
+```java
  String findX() {
     ...
     x = ...;
@@ -154,14 +156,14 @@ void fooOther() {
 &nbsp;&nbsp;如果没能合理利用程序语言提供的优势，你会发现程序还是很难懂，以至于需要写注释。所以我现在告诉你一些要点，也许可以帮助你大大减少写注释的必要：
 
 &nbsp;&nbsp;使用有意义的函数和变量名字。如果你的函数和变量的名字，能够切实的描述它们的逻辑，那么你就不需要写注释来解释它在干什么。比如：
-```Java
+```java
 // put elephant1 into fridge2
 put(elephant1, fridge2);
 ```
 &nbsp;&nbsp;由于我的函数名put，加上两个有意义的变量名elephant1和fridge2，已经说明了这是在干什么（把大象放进冰箱），所以上面那句注释完全没有必要。
 
 &nbsp;&nbsp;局部变量应该尽量接近使用它的地方。有些人喜欢在函数最开头定义很多局部变量，然后在下面很远的地方使用它，就像这个样子：
-```Java
+```java
 void foo() {
   int index = ...;
   ...
@@ -171,7 +173,7 @@ void foo() {
 }
 ```
 &nbsp;&nbsp;由于这中间都没有使用过index，也没有改变过它所依赖的数据，所以这个变量定义，其实可以挪到接近使用它的地方：
-```Java
+```java
 void foo() {
   ...
   ...
@@ -187,7 +189,7 @@ void foo() {
 &nbsp;&nbsp;局部变量名字应该简短。这貌似跟第一点相冲突，简短的变量名怎么可能有意义呢？注意我这里说的是局部变量，因为它们处于局部，再加上第2点已经把它放到离使用位置尽量近的地方，所以根据上下文你就会容易知道它的意思：
 
 比如，你有一个局部变量，表示一个操作是否成功：
-```Java
+```java
 boolean successInDeleteFile = deleteFile("foo.txt");
 if (successInDeleteFile) {
   ...
@@ -196,7 +198,7 @@ if (successInDeleteFile) {
 }
 ```
 &nbsp;&nbsp;这个局部变量successInDeleteFile大可不必这么啰嗦。因为它只用过一次，而且用它的地方就在下面一行，所以读者可以轻松发现它是deleteFile返回的结果。如果你把它改名为success，其实读者根据一点上下文，也知道它表示”success in deleteFile”。所以你可以把它改成这样：
-```Java
+```java
 boolean success = deleteFile("foo.txt");
 if (success) {
   ...
@@ -207,7 +209,7 @@ if (success) {
 &nbsp;&nbsp;这样的写法不但没漏掉任何有用的语义信息，而且更加易读。successInDeleteFile这种“camelCase”，如果超过了三个单词连在一起，其实是很碍眼的东西。所以如果你能用一个单词表示同样的意义，那当然更好。
 
 &nbsp;&nbsp;不要重用局部变量。很多人写代码不喜欢定义新的局部变量，而喜欢“重用”同一个局部变量，通过反复对它们进行赋值，来表示完全不同意思。比如这样写：
-```Java
+```java
 String msg;
 if (...) {
   msg = "succeed";
@@ -218,7 +220,7 @@ if (...) {
 }
 ```
 &nbsp;&nbsp;虽然这样在逻辑上是没有问题的，然而却不易理解，容易混淆。变量msg两次被赋值，表示完全不同的两个值。它们立即被log.info使用，没有传递到其它地方去。这种赋值的做法，把局部变量的作用域不必要的增大，让人以为它可能在将来改变，也许会在其它地方被使用。更好的做法，其实是定义两个变量：
-```Java
+```java
 if (...) {
   String msg = "succeed";
   log.info(msg);
@@ -230,7 +232,7 @@ if (...) {
 &nbsp;&nbsp;由于这两个msg变量的作用域仅限于它们所处的if语句分支，你可以很清楚的看到这两个msg被使用的范围，而且知道它们之间没有任何关系。
 
 &nbsp;&nbsp;把复杂的逻辑提取出去，做成“帮助函数”。有些人写的函数很长，以至于看不清楚里面的语句在干什么，所以他们误以为需要写注释。如果你仔细观察这些代码，就会发现不清晰的那片代码，往往可以被提取出去，做成一个函数，然后在原来的地方调用。由于函数有一个名字，这样你就可以使用有意义的函数名来代替注释。举一个例子：
-```Java
+```java
 ...
 // put elephant1 into fridge2
 openDoor(fridge2);
@@ -243,7 +245,7 @@ closeDoor(fridge2);
 ...
 ```
 如果你把这片代码提出去定义成一个函数：
-```Java
+```java
 void put(Elephant elephant, Fridge fridge) {
   openDoor(fridge);
   if (elephant.alive()) {
@@ -256,7 +258,7 @@ void put(Elephant elephant, Fridge fridge) {
 ```
 这样原来的代码就可以改成：
 
-```Java
+```java
 ...
 put(elephant1, fridge2);
 ...
@@ -264,12 +266,12 @@ put(elephant1, fridge2);
 更加清晰，而且注释也没必要了。
 
 &nbsp;&nbsp;把复杂的表达式提取出去，做成中间变量。有些人听说“函数式编程”是个好东西，也不理解它的真正含义，就在代码里大量使用嵌套的函数。像这样：
-```
+```java
 Pizza pizza = makePizza(crust(salt(), butter()),
    topping(onion(), tomato(), sausage()));
 ```
 &nbsp;&nbsp;这样的代码一行太长，而且嵌套太多，不容易看清楚。其实训练有素的函数式程序员，都知道中间变量的好处，不会盲目的使用嵌套的函数。他们会把这代码变成这样：
-```Java
+```java
 Crust crust = crust(salt(), butter());
 Topping topping = topping(onion(), tomato(), sausage());
 Pizza pizza = makePizza(crust, topping);
@@ -279,14 +281,14 @@ Pizza pizza = makePizza(crust, topping);
 &nbsp;&nbsp;在合理的地方换行。对于绝大部分的程序语言，代码的逻辑是和空白字符无关的，所以你可以在几乎任何地方换行，你也可以不换行。这样的语言设计是个好东西，因为它给了程序员自由控制自己代码格式的能力。然而，它也引起了一些问题，因为很多人不知道如何合理的换行。
 
 &nbsp;&nbsp;有些人喜欢利用IDE的自动换行机制，编辑之后用一个热键把整个代码重新格式化一遍，IDE就会把超过行宽限制的代码自动折行。可是这种自动这行，往往没有根据代码的逻辑来进行，不能帮助理解代码。自动换行之后可能产生这样的代码：
-```Java
+```java
    if (someLongCondition1() && someLongCondition2() && someLongCondition3() &&
      someLongCondition4()) {
      ...
    }
 ```
 &nbsp;&nbsp;由于someLongCondition4()超过了行宽限制，被编辑器自动换到了下面一行。虽然满足了行宽限制，换行的位置却是相当任意的，它并不能帮助人理解这代码的逻辑。这几个boolean表达式，全都用&&连接，所以它们其实处于平等的地位。为了表达这一点，当需要折行的时候，你应该把每一个表达式都放到新的一行，就像这个样子：
-```Java
+```java
    if (someLongCondition1() &&
        someLongCondition2() &&
        someLongCondition3() &&
@@ -295,12 +297,12 @@ Pizza pizza = makePizza(crust, topping);
    }
   ```
 这样每一个条件都对齐，里面的逻辑就很清楚了。再举个例子：
-```Java
+```java
    log.info("failed to find file {} for command {}, with exception {}", file, command,
      exception);
 ```
 &nbsp;&nbsp;这行因为太长，被自动折行成这个样子。file，command和exception本来是同一类东西，却有两个留在了第一行，最后一个被折到第二行。它就不如手动换行成这个样子：
-```Java
+```java
    log.info("failed to find file {} for command {}, with exception {}",
      file, command, exception);
 ```
@@ -331,12 +333,12 @@ expect(tea).to.have.property('flavors').with.length(3);
 &nbsp;&nbsp;有人也许以为i++或者++i的效率比拆开之后要高，这只是一种错觉。这些代码经过基本的编译器优化之后，生成的机器代码是完全没有区别的。自增减表达式只有在两种情况下才可以安全的使用。一种是在for循环的update部分，比如for(int i = 0; i < 5; i++)。另一种情况是写成单独的一行，比如i++;。这两种情况是完全没有歧义的。你需要避免其它的情况，比如用在复杂的表达式里面，比如foo(i++)，foo(++i) + foo(i)，…… 没有人应该知道，或者去追究这些是什么意思。
 
 永远不要省略花括号。很多语言允许你在某种情况下省略掉花括号，比如C，Java都允许你在if语句里面只有一句话的时候省略掉花括号：
-```Java
+```java
 if (...)
   action1();
 ```
 咋一看少打了两个字，多好。可是这其实经常引起奇怪的问题。比如，你后来想要加一句话action2()到这个if里面，于是你就把代码改成：
-```Java
+```java
 if (...)
   action1();
   action2();
@@ -364,7 +366,7 @@ if (...)
 下面我对这些情况举一些例子。
 
 情况1：下面这段代码里面有一个continue：
-```Java
+```java
 List<String> goodNames = new ArrayList<>();
 for (String name: names) {
   if (name.contains("bad")) {
@@ -377,7 +379,7 @@ for (String name: names) {
 它说：“如果name含有’bad’这个词，跳过后面的循环代码……” 注意，这是一种“负面”的描述，它不是在告诉你什么时候“做”一件事，而是在告诉你什么时候“不做”一件事。为了知道它到底在干什么，你必须搞清楚continue会导致哪些语句被跳过了，然后脑子里把逻辑反个向，你才能知道它到底想做什么。这就是为什么含有continue和break的循环不容易理解，它们依靠“控制流”来描述“不做什么”，“跳过什么”，结果到最后你也没搞清楚它到底“要做什么”。
 
 其实，我们只需要把continue的条件反向，这段代码就可以很容易的被转换成等价的，不含continue的代码：
-```Java
+```java
 List<String> goodNames = new ArrayList<>();
 for (String name: names) {
   if (!name.contains("bad")) {
@@ -391,7 +393,7 @@ for (String name: names) {
 情况2：for和while头部都有一个循环的“终止条件”，那本来应该是这个循环唯一的退出条件。如果你在循环中间有break，它其实给这个循环增加了一个退出条件。你往往只需要把这个条件合并到循环头部，就可以去掉break。
 
 比如下面这段代码：
-```Java
+```java
 while (condition1) {
   ...
   if (condition2) {
@@ -400,7 +402,7 @@ while (condition1) {
 }
 ```
 当condition成立的时候，break会退出循环。其实你只需要把condition2反转之后，放到while头部的终止条件，就可以去掉这种break语句。改写后的代码如下：
-```Java
+```java
 while (condition1 && !condition2) {
   ...
 }
@@ -408,7 +410,7 @@ while (condition1 && !condition2) {
 这种情况表面上貌似只适用于break出现在循环开头或者末尾的时候，然而其实大部分时候，break都可以通过某种方式，移动到循环的开头或者末尾。具体的例子我暂时没有，等出现的时候再加进来。
 
 情况3：很多break退出循环之后，其实接下来就是一个return。这种break往往可以直接换成return。比如下面这个例子：
-```Java
+```java
 public boolean hasBadName(List<String> names) {
     boolean result = false;
 
@@ -422,7 +424,7 @@ public boolean hasBadName(List<String> names) {
 }
 ```
 这个函数检查names链表里是否存在一个名字，包含“bad”这个词。它的循环里包含一个break语句。这个函数可以被改写成：
-```Java
+```java
 public boolean hasBadName(List<String> names) {
     for (String name: names) {
         if (name.contains("bad")) {
@@ -446,7 +448,7 @@ command1 || command2 || command3
 操作符||也有类似的特性。上面这个命令行，如果command1成功，那么command2和command3都不会被执行。如果command1失败，command2成功，那么command3就不会被执行。
 
 这比起用if语句来判断失败，似乎更加巧妙和简洁，所以有人就借鉴了这种方式，在程序的代码里也使用这种方式。比如他们可能会写这样的代码：
-```Java
+```java
 if (action1() || action2() && action3()) {
   ...
 }
@@ -456,7 +458,7 @@ if (action1() || action2() && action3()) {
 其实，这种写法是滥用了逻辑操作&&和||的短路特性。这两个操作符可能不执行右边的表达式，原因是为了机器的执行效率，而不是为了给人提供这种“巧妙”的用法。这两个操作符的本意，只是作为逻辑操作，它们并不是拿来给你代替if语句的。也就是说，它们只是碰巧可以达到某些if语句的效果，但你不应该因此就用它来代替if语句。如果你这样做了，就会让代码晦涩难懂。
 
 上面的代码写成笨一点的办法，就会清晰很多：
-```Java
+```java
 if (!action1()) {
   if (action2()) {
     action3();
@@ -467,7 +469,7 @@ if (!action1()) {
 
 ### 写无懈可击的代码
 在之前一节里，我提到了自己写的代码里面很少出现只有一个分支的if语句。我写出的if语句，大部分都有两个分支，所以我的代码很多看起来是这个样子：
-```Java
+```java
 if (...) {
   if (...) {
     ...
@@ -485,7 +487,7 @@ if (...) {
 使用这种方式，其实是为了无懈可击的处理所有可能出现的情况，避免漏掉corner case。每个if语句都有两个分支的理由是：如果if的条件成立，你做某件事情；但是如果if的条件不成立，你应该知道要做什么另外的事情。不管你的if有没有else，你终究是逃不掉，必须得思考这个问题的。
 
 很多人写if语句喜欢省略else的分支，因为他们觉得有些else分支的代码重复了。比如我的代码里，两个else分支都是return true。为了避免重复，他们省略掉那两个else分支，只在最后使用一个return true。这样，缺了else分支的if语句，控制流自动“掉下去”，到达最后的return true。他们的代码看起来像这个样子：
-```Java
+```java
 if (...) {
   if (...) {
     ...
@@ -502,7 +504,7 @@ return true;
 由于疏忽而漏掉的分支，全都会自动“掉下去”，最后返回意想不到的结果。即使你看一遍之后确信是正确的，每次读这段代码，你都不能确信它照顾了所有的情况，又得重新推理一遍。这简洁的写法，带来的是反复的，沉重的头脑开销。这就是所谓“面条代码”，因为程序的逻辑分支，不是像一棵枝叶分明的树，而是像面条一样绕来绕去。
 
 另外一种省略else分支的情况是这样：
-```Java
+```java
 String s = "";
 if (x < 5) {
   s = "ok";
@@ -511,7 +513,7 @@ if (x < 5) {
 写这段代码的人，脑子里喜欢使用一种“缺省值”的做法。s缺省为null，如果x<5，那么把它改变（mutate）成“ok”。这种写法的缺点是，当x<5不成立的时候，你需要往上面看，才能知道s的值是什么。这还是你运气好的时候，因为s就在上面不远。很多人写这种代码的时候，s的初始值离判断语句有一定的距离，中间还有可能插入一些其它的逻辑和赋值操作。这样的代码，把变量改来改去的，看得人眼花，就容易出错。
 
 现在比较一下我的写法：
-```Java
+```java
 String s;
 if (x < 5) {
   s = "ok";
@@ -524,7 +526,7 @@ if (x < 5) {
 如果我漏写了else分支，Java编译器是不会放过我的。它会抱怨：“在某个分支，s没有被初始化。”这就强迫我清清楚楚的设定各种条件下s的值，不漏掉任何一种情况。
 
 当然，由于这个情况比较简单，你还可以把它写成这样：
-```Java
+```java
 String s = x < 5 ? "ok" : "";
 ```
 
@@ -551,7 +553,7 @@ EAGAIN, EBADF, EFAULT, EINTR, EINVAL, ...
 很多初学者，都会忘记检查read的返回值是否为-1，觉得每次调用read都得检查返回值真繁琐，不检查貌似也相安无事。这种想法其实是很危险的。如果函数的返回值告诉你，要么返回一个正数，表示读到的数据长度，要么返回-1，那么你就必须要对这个-1作出相应的，有意义的处理。千万不要以为你可以忽视这个特殊的返回值，因为它是一种“可能性”。代码漏掉任何一种可能出现的情况，都可能产生意想不到的灾难性结果。
 
 对于Java来说，这相对方便一些。Java的函数如果出现问题，一般通过异常（exception）来表示。你可以把异常加上函数本来的返回值，看成是一个“union类型”。比如：
-```Java
+```java
 String foo() throws MyException {
   ...
 }
@@ -559,7 +561,7 @@ String foo() throws MyException {
 这里MyException是一个错误返回。你可以认为这个函数返回一个union类型：{String, MyException}。任何调用foo的代码，必须对MyException作出合理的处理，才有可能确保程序的正确运行。Union类型是一种相当先进的类型，目前只有极少数语言（比如Typed Racket）具有这种类型，我在这里提到它，只是为了方便解释概念。掌握了概念之后，你其实可以在头脑里实现一个union类型系统，这样使用普通的语言也能写出可靠的代码。
 
 由于Java的类型系统强制要求函数在类型里面声明可能出现的异常，而且强制调用者处理可能出现的异常，所以基本上不可能出现由于疏忽而漏掉的情况。但有些Java程序员有一种恶习，使得这种安全机制几乎完全失效。每当编译器报错，说“你没有catch这个foo函数可能出现的异常”时，有些人想都不想，直接把代码改成这样：
-```Java
+```java
 try {
   foo();
 } catch (Exception e) {}
@@ -574,7 +576,7 @@ catch异常的时候，你不应该使用Exception这么宽泛的类型。你应
 如果你在自己函数的类型加上throws Exception，那么你就不可避免的需要在调用它的地方处理这个异常，如果调用它的函数也写着throws Exception，这毛病就传得更远。我的经验是，尽量在异常出现的当时就作出处理。否则如果你把它返回给你的调用者，它也许根本不知道该怎么办了。
 
 另外，try { … } catch里面，应该包含尽量少的代码。比如，如果foo和bar都可能产生异常A，你的代码应该尽可能写成：
-```Java
+```java
 try {
   foo();
 } catch (A e) {...}
@@ -584,7 +586,7 @@ try {
 } catch (A e) {...}
 ```
 而不是
-```Java
+```java
 try {
   foo();
   bar();
@@ -600,7 +602,7 @@ try {
 这些语言的类型系统允许null出现在任何对象（指针）类型可以出现的地方，然而null其实根本不是一个合法的对象。它不是一个String，不是一个Integer，也不是一个自定义的类。null的类型本来应该是NULL，也就是null自己。根据这个基本观点，我们推导出以下原则：
 
 尽量不要产生null指针。尽量不要用null来初始化变量，函数尽量不要返回null。如果你的函数要返回“没有”，“出错了”之类的结果，尽量使用Java的异常机制。虽然写法上有点别扭，然而Java的异常，和函数的返回值合并在一起，基本上可以当成union类型来用。比如，如果你有一个函数find，可以帮你找到一个String，也有可能什么也找不到，你可以这样写：
-```Java
+```java
 public String find() throws NotFoundException {
   if (...) {
     return ...;
@@ -614,7 +616,7 @@ Java的类型系统会强制你catch这个NotFoundException，所以你不可能
 Java的try…catch语法相当的繁琐和蹩脚，所以如果你足够小心的话，像find这类函数，也可以返回null来表示“没找到”。这样稍微好看一些，因为你调用的时候不必用try…catch。很多人写的函数，返回null来表示“出错了”，这其实是对null的误用。“出错了”和“没有”，其实完全是两码事。“没有”是一种很常见，正常的情况，比如查哈希表没找到，很正常。“出错了”则表示罕见的情况，本来正常情况下都应该存在有意义的值，偶然出了问题。如果你的函数要表示“出错了”，应该使用异常，而不是null。
 
 不要catch NullPointerException。有些人写代码很nice，他们喜欢“容错”。首先他们写一些函数，这些函数里面不大小心，没检查null指针：
-```Java
+```java
 void foo() {
   String found = find();
   int len = found.length();
@@ -622,7 +624,7 @@ void foo() {
 }
 ```
 当foo调用产生了异常，他们不管三七二十一，就把调用的地方改成这样：
-```Java
+```java
 try {
   foo();
 } catch (Exception e) {
@@ -632,7 +634,7 @@ try {
 这样当found是null的时候，NullPointerException就会被捕获并且得到处理。这其实是很错误的作法。首先，上一节已经提到了，catch (Exception e)这种写法是要绝对避免的，因为它捕获所有的异常，包括NullPointerException。这会让你意外地捕获try语句里面出现的NullPointerException，从而把代码的逻辑搅得一塌糊涂。
 
 另外就算你写成catch (NullPointerException e)也是不可以的。由于foo的内部缺少了null检查，才出现了NullPointerException。现在你不对症下药，倒把每个调用它的地方加上catch，以后你的生活就会越来越苦。正确的做法应该是改动foo，而不改调用它的代码。foo应该被改成这样：
-```Java
+```java
 void foo() {
   String found = find();
   if (found != null) {
@@ -650,7 +652,7 @@ void foo() {
 解决方案是：如果你真要表示“没有”，那你就干脆不要把它放进去（Array，List，Set没有元素，Map根本没那个entry），或者你可以指定一个特殊的，真正合法的对象，用来表示“没有”。
 
 需要指出的是，类对象并不属于容器。所以null在必要的时候，可以作为对象成员的值，表示它不存在。比如：
-```Java
+```java
 class A {
   String name = null;
   ...
@@ -663,7 +665,7 @@ class A {
 如果你调用的函数有可能返回null，那么你应该在第一时间对null做出“有意义”的处理。比如，上述的函数find，返回null表示“没找到”，那么调用find的代码就应该在它返回的第一时间，检查返回值是否是null，并且对“没找到”这种情况，作出有意义的处理。
 
 “有意义”是什么意思呢？我的意思是，使用这函数的人，应该明确的知道在拿到null的情况下该怎么做，承担起责任来。他不应该只是“向上级汇报”，把责任踢给自己的调用者。如果你违反了这一点，就有可能采用一种不负责任，危险的写法：
-```Java
+```java
 public String foo() {
   String found = find();
   if (found == null) {
@@ -672,7 +674,7 @@ public String foo() {
 }
 ```
 当看到find()返回了null，foo自己也返回null。这样null就从一个地方，游走到了另一个地方，而且它表示另外一个意思。如果你不假思索就写出这样的代码，最后的结果就是代码里面随时随地都可能出现null。到后来为了保护自己，你的每个函数都会写成这样：
-```Java
+```java
 public void foo(A a, B b, C c) {
   if (a == null) { ... }
   if (b == null) { ... }
@@ -687,7 +689,7 @@ public void foo(A a, B b, C c) {
 正确的做法，其实是强硬的态度。你要告诉函数的使用者，我的参数全都不能是null，如果你给我null，程序崩溃了该你自己负责。至于调用者代码里有null怎么办，他自己该知道怎么处理（参考以上几条），不应该由函数作者来操心。
 
 采用强硬态度一个很简单的做法是使用Objects.requireNonNull()。它的定义很简单：
-```Java
+```java
 public static <T> T requireNonNull(T obj) {
   if (obj == null) {
     throw new NullPointerException();
@@ -705,7 +707,7 @@ public static <T> T requireNonNull(T obj) {
 Optional类型的设计原理，就是把“检查”和“访问”这两个操作合二为一，成为一个“原子操作”。这样你没法只访问，而不进行检查。这种做法其实是ML，Haskell等语言里的模式匹配（pattern matching）的一个特例。模式匹配使得类型判断和访问成员这两种操作合二为一，所以你没法犯错。
 
 比如，在Swift里面，你可以这样写：
-```Java
+```java
 let found = find()
 if let content = found {
   print("found: " + content)
@@ -716,14 +718,14 @@ if let content = found {
 我不是很喜欢这语法，不过这整个语句的含义是：如果found是nil，那么整个if语句被略过。如果它不是nil，那么变量content被绑定到found里面的值（unwrap操作），然后执行print("found: " + content)。由于这种写法把检查和访问合并在了一起，你没法只进行访问而不检查。
 
 Java 8的做法比较蹩脚一些。如果你得到一个Optional类型的值found，你必须使用“函数式编程”的方式，来写这之后的代码：
-```Java
+```java
 Optional<String> found = find();
 found.ifPresent(content -> System.out.println("found: " + content));
 ```
 这段Java代码跟上面的Swift代码等价，它包含一个“判断”和一个“取值”操作。ifPresent先判断found是否有值（相当于判断是不是null）。如果有，那么将其内容“绑定”到lambda表达式的content参数（unwrap操作），然后执行lambda里面的内容，否则如果found没有内容，那么ifPresent里面的lambda不执行。
 
 Java的这种设计有个问题。判断null之后分支里的内容，全都得写在lambda里面。在函数式编程里，这个lambda叫做“continuation”，Java把它叫做 “Consumer”，它表示“如果found不是null，拿到它的值，然后应该做什么”。由于lambda是个函数，你不能在里面写return语句返回出外层的函数。比如，如果你要改写下面这个函数（含有null）：
-```Java
+```java
 public static String foo() {
   String found = find();
   if (found != null) {
@@ -734,7 +736,7 @@ public static String foo() {
 }
 ```
 就会比较麻烦。因为如果你写成这样：
-```Java
+```java
 public static String foo() {
   Optional<String> found = find();
   found.ifPresent(content -> {
@@ -744,7 +746,7 @@ public static String foo() {
 }
 ```
 里面的return a，并不能从函数foo返回出去。它只会从lambda返回，而且由于那个lambda（Consumer.accept）的返回类型必须是void，编译器会报错，说你返回了String。由于Java里closure的自由变量是只读的，你没法对lambda外面的变量进行赋值，所以你也不能采用这种写法：
-```Java
+```java
 public static String foo() {
   Optional<String> found = find();
   String result = "";
@@ -755,7 +757,7 @@ public static String foo() {
 }
 ```
 所以，虽然你在lambda里面得到了found的内容，如何使用这个值，如何返回一个值，却让人摸不着头脑。你平时的那些Java编程手法，在这里几乎完全废掉了。实际上，判断null之后，你必须使用Java 8提供的一系列古怪的函数式编程操作：map, flatMap, orElse之类，想法把它们组合起来，才能表达出原来代码的意思。比如之前的代码，只能改写成这样：
-```Java
+```java
 public static String foo() {
   Optional<String> found = find();
   return found.orElse("");
@@ -768,7 +770,7 @@ public static String foo() {
 总之你只要记住，使用Optional类型，要点在于“原子操作”，使得null检查与取值合二为一。这要求你必须使用我刚才介绍的特殊写法。如果你违反了这一原则，把检查和取值分成两步做，还是有可能犯错误。比如在Java 8里面，你可以使用found.get()这样的方式直接访问found里面的内容。在Swift里你也可以使用found!来直接访问而不进行检查。
 
 你可以写这样的Java代码来使用Optional类型：
-```Java
+```java
 Option<String> found = find();
 if (found.isPresent()) {
   System.out.println("found: " + found.get());
