@@ -8,9 +8,10 @@
 - &nbsp;&nbsp;[CSS](#css)  
 
 ### <span id="learn">学习经验</span>  
-[如何掌握所有的程序语言](2018/learn-program-language.md)  
-[给Java说句公道话](2018/wangyin-java.md)  
-[编程的智慧](2018/program-brain.md)
+
+- [如何掌握所有的程序语言](2018/learn-program-language.md)  
+- [给Java说句公道话](2018/wangyin-java.md)  
+- [编程的智慧](2018/program-brain.md)
 
 ### <span id="java">&nbsp;Java</span>  
 [Spring获取参数注解](2018/spring-get-data.md)  
