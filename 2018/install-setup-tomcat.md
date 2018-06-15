@@ -53,10 +53,10 @@ D:\Program Files\Java\jdk1.6.0_45
 &nbsp;&nbsp;有一个方法可以检测，如果将内存恢复初始值，可以启动，增大内存就一闪而过，那说明你设置的内存过大，不符合你操作系统允许的最大限制。需要重新设定。（小提示，有时将-Xms,-Xmx去掉，只在Initial memory pool,Maximum memory pool中设定，就可以启动）
 
 - 4 设置tomcat自启动
-windows平台：进入控制面板\管理工具\服务
-![image](http://note.youdao.com/yws/public/resource/34a3e5d11a88c4654113793e73cff07a/xmlnote/E0129932F83C4A53B1942C67F791183F/9202)
+windows平台：进入控制面板\管理工具\服务  
+![image](img/server.png)
 双击打开服务，会看到“Apache Tomcat 7.0.67”，  
-![image](http://note.youdao.com/yws/public/resource/34a3e5d11a88c4654113793e73cff07a/xmlnote/226CD62E785D43018C4EBE401A0A30B6/9198)   
+![image](img/start-tomcat.png)   
 
 双击打开，会看到“启动类型”设置，设为“自动”即可。  
 也可以在tomcat7w.exe中设置为"Automatic"，如下图：  
