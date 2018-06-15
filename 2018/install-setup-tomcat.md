@@ -54,9 +54,9 @@ D:\Program Files\Java\jdk1.6.0_45
 
 - 4 设置tomcat自启动
 windows平台：进入控制面板\管理工具\服务  
-![image](img/server.png)
+![image](img/server.png)  
 双击打开服务，会看到“Apache Tomcat 7.0.67”，  
-![image](img/start-tomcat.png)   
+![image](img/start-tomcat.png)  
 
 双击打开，会看到“启动类型”设置，设为“自动”即可。  
 也可以在tomcat7w.exe中设置为"Automatic"，如下图：  
