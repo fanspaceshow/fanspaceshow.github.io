@@ -61,7 +61,7 @@ windows平台：进入控制面板\管理工具\服务
 
 双击打开，会看到“启动类型”设置，设为“自动”即可。  
 也可以在tomcat7w.exe中设置为"Automatic"，如下图：  
-![image](http://note.youdao.com/yws/public/resource/34a3e5d11a88c4654113793e73cff07a/xmlnote/A62A94D730C748B88CB412CEB3E28D4A/10426)
+![image](img/www.png)
 - 5 配置管理员角色
 在apache-tomcat-7.0.67\conf目录下，有一份配置文件“tomcat-users.xml”。打开这份文件，里面会有这么一段代码
 ```XML
