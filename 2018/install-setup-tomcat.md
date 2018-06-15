@@ -32,6 +32,7 @@ D:\Program Files\Java\jdk1.6.0_45
 - 2 执行 service.bat install 如下图：
 ![image](img/clipboard.png)
 - 3 修改 jvm或 PS Perm Gen内存  
+
 ![image](img/tomcat-properties.png)
 
 ```
