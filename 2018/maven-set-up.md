@@ -30,6 +30,7 @@
 找到配置文件D:\apache-maven-3.1.1\conf\settings.xml。  
 【1】修改本地仓库位置
 ![image](img/maven05.png)  
+
 【2】配置阿里云镜像.
 
 ```xml
@@ -41,9 +42,9 @@
             <url>http://maven.aliyun.com/nexus/content/groups/public</url>
         </mirror>
  </mirrors>
-```
+```  
 
-【3】官方提供的Jeecg本地仓库下载 (非必须步骤)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】官方提供的Jeecg本地仓库下载 (非必须步骤)
      如果因为网络等问题导致依赖下载总失败，可以直接下载官方提供的本地仓库覆盖本地仓库。下载地址：  https://gitee.com/jeecg/jeecg-local-maven
 
 - 提示：
