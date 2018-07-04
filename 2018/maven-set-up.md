@@ -7,15 +7,17 @@
  解压apache-maven-3.1.1-bin.zip至D:\apache-maven-3.1.1目录，目录结构为如下
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![image](img/maven01.png)
+![image](img/maven01.png)  
 
-3. 配置MAVEN环境变量
-【1】选择我的电脑->鼠标右键->属性->高级环境设置->环境变量-系统变量框下新增变量名M2_HOME，值为D:\apache-maven-3.1.1
+
+3. 配置MAVEN环境变量  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)&nbsp;&nbsp;选择我的电脑->鼠标右键->属性->高级环境设置->环境变量-系统变量框下新增变量名M2_HOME，值为D:\apache-maven-3.1.1
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven02.png)
 
-【2】编辑变量名Path，在变量值中前面追加“%M2_HOME%\bin”
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)&nbsp;&nbsp;编辑变量名Path，在变量值中前面追加“%M2_HOME%\bin”  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven03.png)
 
