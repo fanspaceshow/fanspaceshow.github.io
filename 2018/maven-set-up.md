@@ -1,4 +1,4 @@
-## Maven本地环境搭建
+## 一.Maven本地环境搭建
 
 1．下载Maven
 在Maven官方网站，下载最新版本apache-maven-3.1.1-bin.zip，地址：http://maven.apache.org/download.cgi
@@ -39,3 +39,24 @@
 
 OK，先来体会一下maven，在cmd中敲并回车执行：mvn help:system
 这时候maven 就会从远程仓库开始下载一大堆的东西，没事，让它下载着，迟早都要下载的。
+
+## 二. Eclipse安装Maven插件
+1．Eclipse 插件安装
+> 友情提示： 如果采用我们官方提供的eclipse，请确认下是否已经集成好maven，集成好的可以忽略这一步。
+
+eclipse选择Help  -->  Install New Software输入地址
+http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
+把选项勾上，然后等待它下载安装，完成之后重启 eclipse 即可
+
+
+2．Eclipse Maven配置
+【1】Window->preferences找到maven下的Installations，添加maven的安装目录  
+
+【2】 找到User Settings选择maven安装目录下的settings.xml，单击Update Settings  
+
+【3】修改maven默认选项，很重要
+参考截图配置
+选项说明： Offine : 选中标识不从仓库下载依赖，一般情况不选择。  
+
+
+OK，eclipse配置已经完成了。
