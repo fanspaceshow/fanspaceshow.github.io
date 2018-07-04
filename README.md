@@ -6,6 +6,7 @@
 - &nbsp;&nbsp;[Ubuntu](#ubuntu)  
 - &nbsp;&nbsp;[JavaScript](#JavaScript)  
 - &nbsp;&nbsp;[CSS](#css)  
+- &nbsp;&nbsp;[VPS](#vps)  
 
 ### <span id="learn">学习经验</span>  
 
@@ -32,3 +33,7 @@
 
 ### <span id="css">&nbsp;CSS</span>  
 - [回到顶部总结](2018/backtop.md)  
+
+### <span id="vps">&nbsp;VPS</span>  
+- [shadowsocks搭建](2018/shadowsocks-set-up.md)  
+
