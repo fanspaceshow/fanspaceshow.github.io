@@ -1,7 +1,7 @@
 ## 一.Maven本地环境搭建
 
 1．下载Maven
-在Maven官方网站，下载最新版本apache-maven-3.1.1-bin.zip，地址：[link](http://maven.apache.org/download.cgi)
+在Maven官方网站，下载最新版本apache-maven-3.1.1-bin.zip，地址：[http://maven.apache.org/download.cgi](http://maven.apache.org/download.cgi)
 
 2．解压安装
  解压apache-maven-3.1.1-bin.zip至D:\apache-maven-3.1.1目录，目录结构为如下
