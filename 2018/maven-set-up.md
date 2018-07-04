@@ -70,7 +70,8 @@ http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
 ![image](img/eclipse_maven03.png)
 
 【2】 找到User Settings选择maven安装目录下的settings.xml，单击Update Settings
-![image](img/eclipse_maven04.png)
+![image](img/eclipse_maven04.png)  
+
 【3】修改maven默认选项，很重要
 参考截图配置
 选项说明： Offine : 选中标识不从仓库下载依赖，一般情况不选择。  
