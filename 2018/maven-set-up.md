@@ -12,23 +12,24 @@
 
 3. 配置MAVEN环境变量  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)&nbsp;&nbsp;选择我的电脑->鼠标右键->属性->高级环境设置->环境变量-系统变量框下新增变量名M2_HOME，值为D:\apache-maven-3.1.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【1】&nbsp;&nbsp;选择我的电脑->鼠标右键->属性->高级环境设置->环境变量-系统变量框下新增变量名M2_HOME，值为D:\apache-maven-3.1.1
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven02.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)&nbsp;&nbsp;编辑变量名Path，在变量值中前面追加“%M2_HOME%\bin”  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【2】&nbsp;&nbsp;编辑变量名Path，在变量值中前面追加“%M2_HOME%\bin”  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven03.png)
 
 4. 测试Maven安装成功
 在命令行中输入： mvn –v 显示mvn版本信息为Apache Maven 3.1.1则为安装成功。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![image](img/maven04.png)
+![image](img/maven04.png)  
+
 5．修改Maven默认配置(非常重要)
-找到配置文件D:\apache-maven-3.1.1\conf\settings.xml。
+找到配置文件D:\apache-maven-3.1.1\conf\settings.xml。  
 【1】修改本地仓库位置
-![image](img/maven05.png)
+![image](img/maven05.png)  
 【2】配置阿里云镜像.
 
 ```xml
