@@ -28,6 +28,7 @@
 
 5. 修改Maven默认配置(非常重要)
 找到配置文件D:\apache-maven-3.1.1\conf\settings.xml。  
+
 【1】修改本地仓库位置
 ![image](img/maven05.png)  
 
@@ -44,8 +45,8 @@
  </mirrors>
 ```  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【3】官方提供的Jeecg本地仓库下载 (非必须步骤)
-     如果因为网络等问题导致依赖下载总失败，可以直接下载官方提供的本地仓库覆盖本地仓库。下载地址：  https://gitee.com/jeecg/jeecg-local-maven
+【3】官方提供的Jeecg本地仓库下载 (非必须步骤)
+     如果因为网络等问题导致依赖下载总失败，可以直接下载官方提供的本地仓库覆盖本地仓库。下载地址：  [https://gitee.com/jeecg/jeecg-local-maven](https://gitee.com/jeecg/jeecg-local-maven)
 
 - 提示：
 > 因为国外镜像慢，所以采用国内阿里云镜像配置，需要排除jeecg私服配置，看参数mirrorOf。
@@ -65,6 +66,7 @@ http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
 
 
 2. Eclipse Maven配置   
+
 【1】Window->preferences找到maven下的Installations，添加maven的安装目录  
 ![image](img/eclipse_maven02.png)  
 
