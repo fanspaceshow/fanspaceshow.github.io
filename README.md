@@ -35,5 +35,5 @@
 - [回到顶部总结](2018/backtop.md)  
 
 ### <span id="vps">&nbsp;VPS</span>  
-- [shadowsocks搭建](2018/shadowsocks-set-up.md)  
+- [shadowsocks搭建 Ubuntu版](2018/shadowsocks-set-up.md)  
 
