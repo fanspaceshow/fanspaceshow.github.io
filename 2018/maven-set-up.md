@@ -63,9 +63,10 @@ http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
 ![image](img/eclipse_maven01.png)
 
 
-2．Eclipse Maven配置
+2．Eclipse Maven配置  
 【1】Window->preferences找到maven下的Installations，添加maven的安装目录  
-![image](img/eclipse_maven02.png)
+![image](img/eclipse_maven02.png)  
+
 ![image](img/eclipse_maven03.png)
 
 【2】 找到User Settings选择maven安装目录下的settings.xml，单击Update Settings
