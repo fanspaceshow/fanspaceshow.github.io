@@ -26,7 +26,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven04.png)  
 
-5．修改Maven默认配置(非常重要)
+5. 修改Maven默认配置(非常重要)
 找到配置文件D:\apache-maven-3.1.1\conf\settings.xml。  
 【1】修改本地仓库位置
 ![image](img/maven05.png)  
@@ -53,7 +53,7 @@ OK，先来体会一下maven，在cmd中敲并回车执行：mvn help:system
 这时候maven 就会从远程仓库开始下载一大堆的东西，没事，让它下载着，迟早都要下载的。
 
 ## 二. Eclipse安装Maven插件
-1．Eclipse 插件安装
+1. Eclipse 插件安装
 > 友情提示： 如果采用我们官方提供的eclipse，请确认下是否已经集成好maven，集成好的可以忽略这一步。
 
 eclipse选择Help  -->  Install New Software输入地址
@@ -63,7 +63,7 @@ http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
 ![image](img/eclipse_maven01.png)
 
 
-2．Eclipse Maven配置  
+2. Eclipse Maven配置   
 【1】Window->preferences找到maven下的Installations，添加maven的安装目录  
 ![image](img/eclipse_maven02.png)  
 
