@@ -19,8 +19,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven03.png)
 
-4．测试Maven安装成功
-在命令行中输入： mvn –v 显示mvn版本信息为Apache Maven 3.1.1则为安装成功。
+4. 测试Maven安装成功
+在命令行中输入： mvn –v 显示mvn版本信息为Apache Maven 3.1.1则为安装成功。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](img/maven04.png)
 5．修改Maven默认配置(非常重要)
