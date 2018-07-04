@@ -1,7 +1,7 @@
 ## 一.Maven本地环境搭建
 
 1．下载Maven
-在Maven官方网站，下载最新版本apache-maven-3.1.1-bin.zip，地址：http://maven.apache.org/download.cgi
+在Maven官方网站，下载最新版本apache-maven-3.1.1-bin.zip，地址：[link](http://maven.apache.org/download.cgi)
 
 2．解压安装
  解压apache-maven-3.1.1-bin.zip至D:\apache-maven-3.1.1目录，目录结构为如下
@@ -32,13 +32,13 @@
             <mirrorOf>*,!jeecg,!jeecg-snapshots</mirrorOf>
             <name>Nexus aliyun</name>
             <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </mirror> 
+        </mirror>
  </mirrors>
 ```
 
 【3】官方提供的Jeecg本地仓库下载 (非必须步骤)
      如果因为网络等问题导致依赖下载总失败，可以直接下载官方提供的本地仓库覆盖本地仓库。下载地址：  https://gitee.com/jeecg/jeecg-local-maven
-     
+
 - 提示：
 > 因为国外镜像慢，所以采用国内阿里云镜像配置，需要排除jeecg私服配置，看参数mirrorOf。
 
@@ -61,7 +61,7 @@ http://download.jboss.org/jbosstools/updates/m2eclipse-wtp/
 ![image](img/eclipse_maven02.png)
 ![image](img/eclipse_maven03.png)
 
-【2】 找到User Settings选择maven安装目录下的settings.xml，单击Update Settings 
+【2】 找到User Settings选择maven安装目录下的settings.xml，单击Update Settings
 ![image](img/eclipse_maven04.png)
 【3】修改maven默认选项，很重要
 参考截图配置
