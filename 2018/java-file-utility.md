@@ -1,6 +1,6 @@
 ```java
 
-package org.jeecgframework.core.util;
+package org.ftm.core.util;
 
 import java.io.File;
 import java.io.FileInputStream;
