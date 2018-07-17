@@ -22,6 +22,7 @@
 - [java获取文件路径](2018/java-get-resource.md)  
 - [WebSphere安装步骤](2018/websphere-install.md)  
 - [java文件操作方法库](2018/java-file-utility.md)  
+- [java常用方法](2018/java-function.md)  
 
 
 ### <span id="android">&nbsp;Android</span>  
