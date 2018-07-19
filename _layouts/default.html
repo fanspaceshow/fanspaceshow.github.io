@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    
+
     <title>欢迎来到明的博客</title>
     <meta name="description" content="学习笔记">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="{{ '/2018/img/timg.png?v=' | append: site.github.build_revision | relative_url }}" type="image/x-icon" />
+
     <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
+  
     <script type="text/javascript">
       $(window).scroll(function () {
           if($(window).scrollTop()>=100) {
@@ -19,7 +21,7 @@
              $("#toTop").fadeOut(400); /* 当滑动到小于(页面被卷去的高度) 100px 时，回到顶部图标隐藏 */
           }
        });
-      $("#toTop").click(function () { 
+      $("#toTop").click(function () {
          $("html, body").animate({scrollTop: 0}, 100); /* 持续时间为 100ms */
          return false;
        });
@@ -29,10 +31,10 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      
+
       <a href="https://fanspaceshow.github.io/" class="btn">首页</a>
       <a href="https://github.com/fanspaceshow/fanspaceshow.github.io" target="_blank" class="btn">点击收藏</a>
-      
+
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
@@ -42,8 +44,8 @@
     <section class="main-content">
       {{ content }}
 
-      
-      
+
+
       <a href="#" title="回到顶部" id="toTop">
           <span id="arrow"></span>
       </a>
