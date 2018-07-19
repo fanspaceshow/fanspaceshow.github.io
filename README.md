@@ -7,7 +7,7 @@
 - &nbsp;&nbsp;[JavaScript](#JavaScript)  
 - &nbsp;&nbsp;[CSS](#css)  
 - &nbsp;&nbsp;[VPS](#vps)  
-- &nbsp;&nbsp;[elFinder](#elFinder)
+- &nbsp;&nbsp;[elFinder](#elfinder)
 
 ### <span id="learn">学习经验</span>  
 
@@ -44,4 +44,4 @@
 - [shadowsocks搭建 Ubuntu版](2018/shadowsocks-set-up.md)  
 
 ### <span id="elfinder">&nbsp;elFinder</span>  
-- [定制化elFinder](2018/)  
+- [定制化elFinder](2018/elfinder.md)  
