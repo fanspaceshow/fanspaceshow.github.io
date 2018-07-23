@@ -4,6 +4,7 @@
 - &nbsp;&nbsp;[Java](#java)  
 - &nbsp;&nbsp;[Android](#android)  
 - &nbsp;&nbsp;[Ubuntu](#ubuntu)  
+- &nbsp;&nbsp;[CentOS](#centos)  
 - &nbsp;&nbsp;[JavaScript](#JavaScript)  
 - &nbsp;&nbsp;[CSS](#css)  
 - &nbsp;&nbsp;[VPS](#vps)  
@@ -34,6 +35,8 @@
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
 - [ubuntu shell](2018/ubuntu-shell.md)  
 - [Ubuntu下pip3的安装、升级、卸载](2018/ubuntu-pip3.md)  
+
+### <span id="centos">&nbsp;CentOS</span>  
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
 - [(function($){...})(jQuery) 含义](2018/jquery-function.md)  
