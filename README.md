@@ -6,6 +6,7 @@
 - &nbsp;&nbsp;[Ubuntu](#ubuntu)  
 - &nbsp;&nbsp;[CentOS](#centos)  
 - &nbsp;&nbsp;[JavaScript](#JavaScript)  
+- &nbsp;&nbsp;[jQuery](#jquery)  
 - &nbsp;&nbsp;[CSS](#css)  
 - &nbsp;&nbsp;[VPS](#vps)  
 - &nbsp;&nbsp;[elFinder](#elfinder)  
@@ -38,8 +39,11 @@
 
 ### <span id="centos">&nbsp;CentOS</span>  
 
-### <span id="JavaScript">&nbsp;JavaScript</span>  
-- [(function($){...})(jQuery) 含义](2018/jquery-function.md)  
+### <span id="JavaScript">&nbsp;JavaScript</span>   
+
+### <span id="jquery">&nbsp;jQuery</span>  
+- [子页面获取父页面jQuery对象](2018/jquery-window-parent.md)  
+- [(function($){...})(jQuery) 含义](2018/jquery-function.md)
 
 ### <span id="css">&nbsp;CSS</span>  
 - [回到顶部总结](2018/backtop.md)  
