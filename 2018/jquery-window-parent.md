@@ -1,4 +1,4 @@
-``` JavaScript
+``` javascript
 //var jQuery = window.parent.jQuery;
 //var $ = window.parent.$;
   var jQuery = top.jQuery;
