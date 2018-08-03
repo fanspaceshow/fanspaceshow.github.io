@@ -39,7 +39,8 @@
 
 ### <span id="centos">&nbsp;CentOS</span>  
 
-### <span id="JavaScript">&nbsp;JavaScript</span>   
+### <span id="JavaScript">&nbsp;JavaScript</span>  
+- [localStorage和sessionStorage操作](2018/localStorageAsessionStorage.md)  
 
 ### <span id="jquery">&nbsp;jQuery</span>  
 - [子页面获取父页面jQuery对象](2018/jquery-window-parent.md)  
