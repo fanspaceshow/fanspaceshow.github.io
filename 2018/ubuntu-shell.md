@@ -4,5 +4,4 @@
 rm -f 文件名  
 rm -r 文件夹名  
 sudo cp -i test.c /local/arm
-  
-
+cat 查看文件

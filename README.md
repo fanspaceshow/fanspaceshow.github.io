@@ -34,10 +34,10 @@
 
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
-- [ubuntu shell](2018/ubuntu-shell.md)  
 - [Ubuntu下pip3的安装、升级、卸载](2018/ubuntu-pip3.md)  
 
 ### <span id="centos">&nbsp;CentOS</span>  
+- [CentOS shell](2018/ubuntu-shell.md)  
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
 - [localStorage和sessionStorage操作](2018/localStorageAsessionStorage.md)  
