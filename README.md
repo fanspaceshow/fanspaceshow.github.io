@@ -46,7 +46,8 @@
 - [子页面获取父页面jQuery对象](2018/jquery-window-parent.md)  
 - [(function($){...})(jQuery) 含义](2018/jquery-function.md)  
 - [jQuery,选择器，选择父页面的元素](2018/fatherpage-sonpage.md)  
-- [jquery dialog using iframe url](2018/jqueryui-dlg.md)
+- [jquery dialog using iframe url](2018/jqueryui-dlg.md)  
+- [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
 
 ### <span id="css">&nbsp;CSS</span>  
 - [回到顶部总结](2018/backtop.md)  
