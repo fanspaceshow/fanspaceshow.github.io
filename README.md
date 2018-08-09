@@ -48,6 +48,7 @@
 - [jQuery,选择器，选择父页面的元素](2018/fatherpage-sonpage.md)  
 - [jquery dialog using iframe url](2018/jqueryui-dlg.md)  
 - [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
+- [封装属于自己的JS库](2018/jquery-class.md)  
 
 ### <span id="css">&nbsp;CSS</span>  
 - [回到顶部总结](2018/backtop.md)  
