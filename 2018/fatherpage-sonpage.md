@@ -33,3 +33,9 @@ $(window.frames["iframeChild"].document).find("#floader")
 $("#floader",window.frames["iframeChild"].document)
 ```
 子页面获取父页面元素雷同。关键是获取要找的页面就行。
+
+
+获取dialog的子页面的document  
+``` javascript
+var formobj = $("#formobj",document.getElementById('myIframe').contentWindow.document);
+```
