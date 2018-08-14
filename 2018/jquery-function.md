@@ -14,11 +14,11 @@ jQuery var fn = function($){....}; fn(jQuery);
 (funtion(){})()；立即执行函数；相当于先申明一个函数，声明完后直接调用；如果参数如：  
 
 ```javascript
-(funtion(str){alert(str)})("output"))；
+(funtion(str){alert(str)})("output")；
 ```
 
 相当于：
-  
+
 ```javascript
 funtion OutPutFun(str){alert(str);};OutPutFun("output");
 ```
