@@ -27,6 +27,7 @@
 - [WebSphere安装步骤](2018/websphere-install.md)  
 - [java文件操作方法库](2018/java-file-utility.md)  
 - [java常用方法](2018/java-function.md)  
+- [java读取文件内容](2018/java-file-reader.md)  
 
 
 ### <span id="android">&nbsp;Android</span>  
