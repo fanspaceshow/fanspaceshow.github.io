@@ -11,6 +11,10 @@
 - &nbsp;&nbsp;[VPS](#vps)  
 - &nbsp;&nbsp;[elFinder](#elfinder)  
 - &nbsp;&nbsp;[数据库](#db)  
+- &nbsp;&nbsp;[Ebook](#ebook)  
+
+### <span id="learn">Ebook</span>  
+- [超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf](ebook/超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf)  
 
 ### <span id="learn">学习经验</span>  
 
