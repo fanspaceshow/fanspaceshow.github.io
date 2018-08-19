@@ -1,7 +1,5 @@
 ## javaScript封装的各种写法
 
-原文地址：<a href="https://blog.csdn.net/AlbenXie/article/details/70208473" target="_blank">javaScript封装的各种写法</a>  
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;在javascript的世界里，写法是个神奇的现象，真是百家齐开放啊！每次看到老外写的js组件，思想和写法都怪异，就没看到一个js结构基本相同的代码出来。今天，我就来谈谈js写法，我在开发过程中，也写了几种。对于性能方面，如果代码结构或逻辑写的不好，会造成计算机CPU的运算加大，运行性能降低，js的写法对性能的影响也是至关重要的。
 
@@ -118,3 +116,6 @@ WinShow.create = function(c, body) {
 &nbsp;&nbsp;&nbsp;&nbsp;在这里我创建一个create属性以匿名函数形式封装一段HTML代码，并给这个 HTML代码绑定点击事件。
 
 &nbsp;&nbsp;&nbsp;&nbsp;列举以上几种js封装形式，但是小生还在研究中，这几种都能实现相同操作，可是写法有些区别，对于性能方面谁有更好的见解可以点评我，进行交流。
+
+
+原文地址：<a href="https://blog.csdn.net/AlbenXie/article/details/70208473" target="_blank">javaScript封装的各种写法</a>  
