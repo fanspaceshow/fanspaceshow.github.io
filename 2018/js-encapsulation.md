@@ -1,6 +1,7 @@
 ## javaScript封装的各种写法
 
-[javaScript封装的各种写法](https://blog.csdn.net/AlbenXie/article/details/70208473)
+<a href="https://blog.csdn.net/AlbenXie/article/details/70208473" target="_blank">javaScript封装的各种写法</a>  
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;在javascript的世界里，写法是个神奇的现象，真是百家齐开放啊！每次看到老外写的js组件，思想和写法都怪异，就没看到一个js结构基本相同的代码出来。今天，我就来谈谈js写法，我在开发过程中，也写了几种。对于性能方面，如果代码结构或逻辑写的不好，会造成计算机CPU的运算加大，运行性能降低，js的写法对性能的影响也是至关重要的。
 
