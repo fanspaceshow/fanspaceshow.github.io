@@ -118,4 +118,4 @@ WinShow.create = function(c, body) {
 &nbsp;&nbsp;&nbsp;&nbsp;列举以上几种js封装形式，但是小生还在研究中，这几种都能实现相同操作，可是写法有些区别，对于性能方面谁有更好的见解可以点评我，进行交流。
 
 
-原文地址：<a href="https://blog.csdn.net/AlbenXie/article/details/70208473" target="_blank">javaScript封装的各种写法</a>  
+原文地址：<a href="https://blog.csdn.net/AlbenXie/article/details/70208473" target="_blank">JavaScript封装的各种写法</a>  
