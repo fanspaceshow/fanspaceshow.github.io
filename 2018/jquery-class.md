@@ -1,4 +1,3 @@
-[封装属于自己的JS](http://zm603380946.iteye.com/blog/1834010)
 
 ```javascript
 (function() {
@@ -87,4 +86,5 @@ p2.sayName()
 
 > 可参考其它的封装方法
 
-[封装自己的js库(一)---仿照JQuery](https://blog.csdn.net/yanlzhl/article/details/54136724)
+原文地址：<a href="http://zm603380946.iteye.com/blog/1834010" target="_blank">封装属于自己的JS</a>  
+<a href="https://blog.csdn.net/yanlzhl/article/details/54136724" target="_blank">封装自己的js库(一)---仿照JQuery</a>
