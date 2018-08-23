@@ -204,3 +204,5 @@ public void StringBufferDemo() throws IOException......{
          }
      }
 ```
+
+<a href="http://blog.sina.com.cn/s/blog_4a9f789a0100ik3p.html" target="_blank">原文链接</a>  
