@@ -36,7 +36,7 @@
 - [java常用文件操作方法库V2](2018/java-my-file-utility.md)  
 - [java写入文件的几种方法分享](2018/java-file-writer.md)  
 - [解决Tomcat以UTF-8解码及访问外部图片资源](2018/tomcat-conf.md)  
-
+- [java读取文件的方法](2018/java-file-read.md)  
 
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
