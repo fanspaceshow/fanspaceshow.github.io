@@ -31,10 +31,10 @@
 - [WebSphere安装步骤](2018/websphere-install.md)  
 - [java文件操作方法库](2018/java-file-utility.md)  
 - [java常用方法](2018/java-function.md)  
-- [java输入流转字符串](2018/java-file-reader.md)  
+- [java输入流转字符串](2018/java-inputstream2string.md)  
 - <a href="http://www.runoob.com/java/java8-new-features.html" target="_blank">Java8 新特性</a>  
 - [java常用文件操作方法库V2](2018/java-my-file-utility.md)  
-- <a href="https://www.cnblogs.com/x_wukong/p/4679116.html" target="_blank">java写入文件的几种方法分享</a>  
+- [java写入文件的几种方法分享](2018/java-file-writer.md)  
 - [解决Tomcat以UTF-8解码及访问外部图片资源](2018/tomcat-conf.md)  
 
 
