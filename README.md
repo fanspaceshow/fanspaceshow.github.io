@@ -31,13 +31,14 @@
 - [WebSphere安装步骤](2018/websphere-install.md)  
 - [java文件操作方法库](2018/java-file-utility.md)  
 - [java常用方法](2018/java-function.md)  
-- [java输入流转字符串](2018/java-inputstream2string.md)  
-- <a href="http://www.runoob.com/java/java8-new-features.html" target="_blank">Java8 新特性</a>  
+- [java输入流转字符串](2018/java-inputstream2string.md)   
 - [java常用文件操作方法库V2](2018/java-my-file-utility.md)  
 - [java写入文件的几种方法分享](2018/java-file-writer.md)  
 - [解决Tomcat以UTF-8解码及访问外部图片资源](2018/tomcat-conf.md)  
 - [java读取文件的方法](2018/java-file-read.md)  
 - [Java中定义常量(Constant) 的几种方法](2018/java-constant.md)  
+- <a href="http://www.runoob.com/java/java8-new-features.html" target="_blank">Java8 新特性</a>  
+- <a href="https://www.cnblogs.com/myJavaCareerLife-yewei/p/8109661.html" target="_blank">java 中枚举类型,整型,字符串之间转换</a>  
 
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
