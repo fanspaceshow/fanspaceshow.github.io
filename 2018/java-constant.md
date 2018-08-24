@@ -93,4 +93,9 @@ public class TestConstant {
 
 参考
 
-【1】<a href=" http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html" target="_blank"> http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html</a>
+【1】<a href=" http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html" target="_blank"> http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html</a>  
+---  
+
+原文链接：
+<a href="https://blog.csdn.net/zhang_980/article/details/72573229" target="_blank">  
+https://blog.csdn.net/zhang_980/article/details/72573229</a>
