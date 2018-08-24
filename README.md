@@ -40,6 +40,7 @@
 - <a href="http://www.runoob.com/java/java8-new-features.html" target="_blank">Java8 新特性</a>  
 - <a href="https://www.cnblogs.com/myJavaCareerLife-yewei/p/8109661.html" target="_blank">java 中枚举类型,整型,字符串之间转换</a>  
 - <a href="https://blog.csdn.net/moneyshi/article/details/80083360" target="_blank">Java双属性枚举使用</a>  
+- <a href="https://blog.csdn.net/qq_27093465/article/details/52180865" target="_blank">Java 枚举(enum) 详解7种常见的用法</a>
 
 
 ### <span id="android">&nbsp;Android</span>  
