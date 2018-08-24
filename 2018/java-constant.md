@@ -93,7 +93,8 @@ public class TestConstant {
 
 参考
 
-【1】<a href=" http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html" target="_blank"> http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html</a>  
+【1】<a href=" http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html" target="_blank"> http://www.ibm.com/developerworks/cn/java/l-java-interface/index.html</a>   
+
 ---  
 
 原文链接：
