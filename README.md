@@ -39,6 +39,8 @@
 - [Java中定义常量(Constant) 的几种方法](2018/java-constant.md)  
 - <a href="http://www.runoob.com/java/java8-new-features.html" target="_blank">Java8 新特性</a>  
 - <a href="https://www.cnblogs.com/myJavaCareerLife-yewei/p/8109661.html" target="_blank">java 中枚举类型,整型,字符串之间转换</a>  
+- <a href="https://blog.csdn.net/moneyshi/article/details/80083360" target="_blank">Java双属性枚举使用</a>  
+
 
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
