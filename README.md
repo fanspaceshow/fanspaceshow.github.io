@@ -1,5 +1,6 @@
 
 # 目录  
+- &nbsp;&nbsp;[Ebook](#ebook)  
 - &nbsp;&nbsp;[学习经验](#learn)  
 - &nbsp;&nbsp;[Java](#java)  
 - &nbsp;&nbsp;[Android](#android)  
@@ -11,7 +12,7 @@
 - &nbsp;&nbsp;[VPS](#vps)  
 - &nbsp;&nbsp;[elFinder](#elfinder)  
 - &nbsp;&nbsp;[数据库](#db)  
-- &nbsp;&nbsp;[Ebook](#ebook)  
+- &nbsp;&nbsp;[Python](#python)  
 
 ### <span id="learn">Ebook</span>  
 - [超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf](ebook/超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf)  
@@ -42,10 +43,14 @@
 - <a href="https://blog.csdn.net/moneyshi/article/details/80083360" target="_blank">Java双属性枚举使用</a>  
 - <a href="https://blog.csdn.net/qq_27093465/article/details/52180865" target="_blank">Java 枚举(enum) 详解7种常见的用法</a>  
 - [Java枚举我开发中的实际使用](2018/java-enum-mind.md)  
+- <a href="https://github.com/akullpp/awesome-java" target="_blank">A curated list of awesome frameworks, libraries and software for the Java programming language.</a>  
 
 
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
+
+### <span id="python">&nbsp;Python</span>  
+- <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
 
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
@@ -59,6 +64,7 @@
 - [封装属于自己的JS库](2018/jquery-class.md)  
 - [JavaScript封装的各种写法](2018/js-encapsulation.md)  
 - <a href="http://www.runoob.com/w3cnote/es6-concise-tutorial.html" target="_blank">ECMAScript 6 简明教程</a>  
+- <a href="https://github.com/sorrycc/awesome-javascript" target="_blank">A collection of awesome browser-side JavaScript libraries, resources and shiny things</a>  
 
 ### <span id="jquery">&nbsp;jQuery</span>  
 - [子页面获取父页面jQuery对象](2018/jquery-window-parent.md)  
