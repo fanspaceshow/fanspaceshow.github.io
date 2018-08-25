@@ -3,43 +3,43 @@
     <div id="shortcut-box" class="shortcut-box">
 
       <div monkey="shortcut-box">
-        <a class="vip" target="self" href="#ebook">
+        <a class="vip" target="_self" href="#ebook">
     			Ebook
     		</a>
-        <a class="vip" target="self" href="#learn">
+        <a class="vip" target="_self" href="#learn">
     			学习经验
     		</a>
-        <a class="vip" target="self" href="#java">
+        <a class="vip" target="_self" href="#java">
     			Java
     		</a>
-        <a class="vip" target="self" href="#android">
+        <a class="vip" target="_self" href="#android">
     			Android
     		</a>
-        <a class="vip" target="self" href="#ubuntu">
+        <a class="vip" target="_self" href="#ubuntu">
     			Ubuntu
     		</a>
-        <a class="vip" target="self" href="#centos" id="shortcut-toptoggle" style="display:none">
+        <a class="vip" target="_self" href="#centos" id="shortcut-toptoggle" style="display:none">
     			CentOS
     		</a>
-        <a class="vip" alog-text="JavaScript" target="self" href="#JavaScript" id="shortcut-bottomtoggle">
+        <a class="vip" alog-text="JavaScript" target="_self" href="#JavaScript" id="shortcut-bottomtoggle">
     			JavaScript
     		</a>
-        <a class="vip" target="_blank" href="#jquery">
+        <a class="vip" target="_self" href="#jquery">
     			jQuery
     		</a>
-        <a class="vip" target="_blank" href="#css">
+        <a class="vip" target="_self" href="#css">
     			CSS
     		</a>
-        <a class="vip" target="_blank" href="#vps">
+        <a class="vip" target="_self" href="#vps">
     			VPS
     		</a>
-        <a class="vip" target="_blank" href="#elfinder">
+        <a class="vip" target="_self" href="#elfinder">
     			elFinder
     		</a>
-        <a class="vip" target="_blank" href="#db">
+        <a class="vip" target="_self" href="#db">
     			数据库
     		</a>
-        <a class="vip" target="_blank" href="(#python">
+        <a class="vip" target="_self" href="(#python">
     			Python
     		</a>
 
