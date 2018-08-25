@@ -16,6 +16,8 @@
 
 ### <span id="learn">Ebook</span>  
 - [超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf](ebook/超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf)  
+- [阿里巴巴Java开发手册.pdf](ebook/阿里巴巴Java开发手册.pdf)  
+- [JavaScript语言精粹（修订版高清PDF书籍）.pdf](ebook/JavaScript语言精粹（修订版高清PDF书籍）.pdf)  
 
 ### <span id="learn">学习经验</span>  
 
