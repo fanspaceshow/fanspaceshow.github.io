@@ -1,4 +1,51 @@
 
+
+    <div id="shortcut-box" class="shortcut-box">
+
+      <div monkey="shortcut-box">
+        <a class="vip" target="self" href="#ebook">
+    			Ebook
+    		</a>
+        <a class="vip" target="self" href="#learn">
+    			学习经验
+    		</a>
+        <a class="vip" target="self" href="#java">
+    			Java
+    		</a>
+        <a class="vip" target="self" href="#android">
+    			Android
+    		</a>
+        <a class="vip" target="self" href="#ubuntu">
+    			Ubuntu
+    		</a>
+        <a class="vip" target="self" href="#centos" id="shortcut-toptoggle" style="display:none">
+    			CentOS
+    		</a>
+        <a class="vip" alog-text="JavaScript" target="self" href="#JavaScript" id="shortcut-bottomtoggle">
+    			JavaScript
+    		</a>
+        <a class="vip" target="_blank" href="#jquery">
+    			jQuery
+    		</a>
+        <a class="vip" target="_blank" href="#css">
+    			CSS
+    		</a>
+        <a class="vip" target="_blank" href="#vps">
+    			VPS
+    		</a>
+        <a class="vip" target="_blank" href="#elfinder">
+    			elFinder
+    		</a>
+        <a class="vip" target="_blank" href="#db">
+    			数据库
+    		</a>
+        <a class="vip" target="_blank" href="(#python">
+    			Python
+    		</a>
+
+      </div>
+
+
 # 目录  
 - &nbsp;&nbsp;[Ebook](#ebook)  
 - &nbsp;&nbsp;[学习经验](#learn)  
