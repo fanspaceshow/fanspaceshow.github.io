@@ -20,7 +20,7 @@
         $("#toTop").fadeIn(400); /* 当滑动到不小于 100px 时，回到顶部图标显示 */
       } else {
         $("#toTop").fadeOut(400); /* 当滑动到小于(页面被卷去的高度) 100px 时，回到顶部图标隐藏 */
-        $("#shortcut-box").attr("top","500px");
+        $("#shortcut-box").attr("style","top: 500px");
       }
     });
     $("#toTop").click(function() {
