@@ -15,6 +15,11 @@
   <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
 
   <script type="text/javascript">
+    $(function() {
+
+      $("#shortcut-box").attr("style", "top: 500px");
+
+    });
     $(window).scroll(function() {
       if ($(window).scrollTop() >= 100) {
         $("#toTop").fadeIn(400); /* 当滑动到不小于 100px 时，回到顶部图标显示 */
