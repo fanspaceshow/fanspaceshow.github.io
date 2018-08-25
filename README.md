@@ -1,6 +1,4 @@
-
-
-    <div id="shortcut-box" class="shortcut-box">
+<div id="shortcut-box" class="shortcut-box">
 
       <div monkey="shortcut-box">
         <a class="vip" target="_self" href="#ebook">
@@ -43,7 +41,7 @@
     			Python
     		</a>
 
-      </div>
+</div>
 
 
 # 目录  
