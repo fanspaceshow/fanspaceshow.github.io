@@ -39,10 +39,19 @@
 }
 
 /*导航菜单*/
-
+/*
 #shortcut-box {
   overflow: hidden;
   position: fixed;
+  top: 300px;
+  right: 450px;
+  border: 2px solid #169fe6;
+}
+*/
+#shortcut-box {
+  float:right;
+  overflow: hidden;
+  position: relative;
   top: 300px;
   right: 450px;
   border: 2px solid #169fe6;
