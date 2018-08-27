@@ -50,10 +50,9 @@
 */
 #shortcut-box {
   float:right;
-  overflow: hidden;
   position: relative;
-  top: 300px;
-  right: 450px;
+  top: 0px;
+  right: 0px;
   border: 2px solid #169fe6;
 }
 
