@@ -48,9 +48,13 @@
   border: 2px solid #169fe6;
 }
 */
-#shortcut-box {
-  float:right;
+.position-relative{
   position: relative;
+}
+.position-absolute{
+  position: absolute;
+}
+#shortcut-box {
   top: 0px;
   right: 0px;
   border: 2px solid #169fe6;
