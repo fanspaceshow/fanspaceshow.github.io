@@ -52,9 +52,9 @@
   position: relative;
 }
 .position-absolute{
-  position: absolute;
 }
 #shortcut-box {
+  position: absolute;
   top: 0px;
   right: 0px;
   border: 2px solid #169fe6;
