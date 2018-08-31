@@ -15,11 +15,15 @@
   <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
 
   <script type="text/javascript">
-  if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-    window.location.href = "https://www.baidu.com/";
-} else {
-    window.location.href = "http://news.baidu.com/";
-}
+    /**
+     * 如何判断页面是在移动端还是PC端打开的呢？
+     * https://www.cnblogs.com/gaohuijiao/p/6736155.html
+     */
+    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+      $("#shortcut-box").hide();
+    } else {
+      $("#shortcut-box").show();
+    }
 
     $(function() {
 
