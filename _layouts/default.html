@@ -15,6 +15,12 @@
   <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
 
   <script type="text/javascript">
+  if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+    window.location.href = "https://www.baidu.com/";
+} else {
+    window.location.href = "http://news.baidu.com/";
+}
+
     $(function() {
 
       $("#shortcut-box").attr("style", "top: 400px");
