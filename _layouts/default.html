@@ -24,12 +24,12 @@
       if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
         //$("#shortcut-box").attr("style","display:none;");//隐藏div
         //$("#shortcut-box").hide();
-        ishide = false;
+        ishide = true;
+        $("#shortcut-box").remove();
       } else {
         //$("#shortcut-box").attr("style","display:block;");//显示div
         //$("#shortcut-box").hide();
-        ishide = true;
-        $("#shortcut-box").remove();
+        ishide = false;
       }
       if (ishide) {
         $("#shortcut-box").attr("style", "top: 400px");
