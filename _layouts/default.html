@@ -22,10 +22,12 @@
        * https://www.cnblogs.com/gaohuijiao/p/6736155.html
        */
       if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-        $("#shortcut-box").attr("style","display:none;");//隐藏div
+        //$("#shortcut-box").attr("style","display:none;");//隐藏div
+        $("#shortcut-box").hide();
       } else {
         //$("#shortcut-box").attr("style","display:block;");//显示div
-        $("#shortcut-box").attr("style","display:none;");//隐藏div
+        //$("#shortcut-box").attr("style","display:none;");//隐藏div
+        $("#shortcut-box").hide();
       }
     });
     $(window).scroll(function() {
