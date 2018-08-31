@@ -24,7 +24,8 @@
       if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
         $("#shortcut-box").attr("style","display:none;");//隐藏div
       } else {
-        $("#shortcut-box").attr("style","display:block;");//显示div
+        //$("#shortcut-box").attr("style","display:block;");//显示div
+        $("#shortcut-box").attr("style","display:none;");//隐藏div
       }
     });
     $(window).scroll(function() {
