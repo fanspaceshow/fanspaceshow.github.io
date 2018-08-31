@@ -15,18 +15,19 @@
   <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
 
   <script type="text/javascript">
-    /**
-     * 如何判断页面是在移动端还是PC端打开的呢？
-     * https://www.cnblogs.com/gaohuijiao/p/6736155.html
-     */
-    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-      $("#shortcut-box").attr("style","display:none;");//隐藏div
-    } else {
-      $("#shortcut-box").attr("style","display:block;");//显示div
-    }
+
 
     $(function() {
       $("#shortcut-box").attr("style", "top: 400px");
+      /**
+       * 如何判断页面是在移动端还是PC端打开的呢？
+       * https://www.cnblogs.com/gaohuijiao/p/6736155.html
+       */
+      if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+        $("#shortcut-box").attr("style","display:none;");//隐藏div
+      } else {
+        $("#shortcut-box").attr("style","display:block;");//显示div
+      }
     });
     $(window).scroll(function() {
       if ($(window).scrollTop() >= 100) {
