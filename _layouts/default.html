@@ -15,7 +15,7 @@
   <script type="text/javascript" src="/script/jquery-3.3.1.min.js"></script>
 
   <script type="text/javascript">
-    var ishide;
+    var isShow;
     $(function() {
       /**
        * 如何判断页面是在移动端还是PC端打开的呢？
@@ -24,14 +24,14 @@
       if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
         //$("#shortcut-box").attr("style","display:none;");//隐藏div
         //$("#shortcut-box").hide();
-        ishide = true;
+        isShow = false;
         $("#shortcut-box").remove();
       } else {
         //$("#shortcut-box").attr("style","display:block;");//显示div
         //$("#shortcut-box").hide();
-        ishide = false;
+        isShow = true;
       }
-      if (ishide) {
+      if (isShow) {
         $("#shortcut-box").attr("style", "top: 400px");
       }
     });
@@ -39,12 +39,12 @@
       if ($(window).scrollTop() >= 100) {
         $("#toTop").fadeIn(400); /* 当滑动到不小于 100px 时，回到顶部图标显示 */
         //$("#shortcut-box").removeAttr("style");
-        if (ishide) {
+        if (isShow) {
           $("#shortcut-box").attr("style", "top: 0px");
         }
       } else {
         $("#toTop").fadeOut(400); /* 当滑动到小于(页面被卷去的高度) 100px 时，回到顶部图标隐藏 */
-        if (ishide) {
+        if (isShow) {
           $("#shortcut-box").attr("style", "top: 400px");
         }
       }
