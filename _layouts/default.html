@@ -38,9 +38,9 @@
     $(window).scroll(function() {
       if ($(window).scrollTop() >= 100) {
         $("#toTop").fadeIn(400); /* 当滑动到不小于 100px 时，回到顶部图标显示 */
-        //$("#shortcut-box").removeAttr("style");
+        //$("#shortcut-box").attr("style", "top: 0px");
         if (isShow) {
-          $("#shortcut-box").attr("style", "top: 0px");
+          $("#shortcut-box").removeAttr("style");
         }
       } else {
         $("#toTop").fadeOut(400); /* 当滑动到小于(页面被卷去的高度) 100px 时，回到顶部图标隐藏 */
