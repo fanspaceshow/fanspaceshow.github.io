@@ -40,6 +40,7 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 
 ### <span id="python">&nbsp;Python</span>  
 - <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
+- <a href="https://pypi.org/" target="_blank">The Python Package Index (PyPI) is a repository of software for the Python programming language.</a>  
 
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
