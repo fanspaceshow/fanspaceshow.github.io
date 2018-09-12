@@ -34,6 +34,8 @@
 - <a href="
 https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/FileCopyUtils.html" target="_blank">org.springframework.util.FileCopyUtils</a>  
 - [org.apache.commons.io.IOUtils](2018/apache-io.md)  
+- <a href="https://blog.csdn.net/zhu_xun/article/details/16842955" target="_blank">Socket bind failed: [730048]异常的处理</a>  
+
 
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
