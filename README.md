@@ -1,5 +1,4 @@
 ### <span id="learn">帮你解决选择困难</span>  
-- [tt](2018/android-ui.html)  
 - [送女友什么生日礼物？](2018/test/index.html)  
 
 
