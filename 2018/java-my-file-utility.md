@@ -1,8 +1,14 @@
+``` java
+
 package com.circle.core.util;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStreamWriter;
+import java.io.PrintStream;
+import java.io.PrintWriter;
 
 public class FileUtil {
 
@@ -89,11 +95,12 @@ public class FileUtil {
 		return flag;
 	}
 
-	public static boolean writeFile(String fileName, String content) {
+	public static boolean writeFile(String outputPath, String content) {
 
-		File file = new File(fileName);
+		File file = new File(outputPath);
 
-		try (FileOutputStream fop = new FileOutputStream(file)) {
+		try (OutputStreamWriter oStreamWriter =
+				new OutputStreamWriter(new FileOutputStream(file), "utf-8")) {
 
 			// if file doesn't exists, then create it
 			if (!file.exists()) {
@@ -101,11 +108,11 @@ public class FileUtil {
 			}
 
 			// get the content in bytes
-			byte[] contentInBytes = content.getBytes();
+			//byte[] contentInBytes = content.getBytes();
 
-			fop.write(contentInBytes);
-			fop.flush();
-			fop.close();
+			oStreamWriter.append(content);
+			oStreamWriter.flush();
+			oStreamWriter.close();
 
 
 		} catch (IOException e) {
@@ -116,4 +123,120 @@ public class FileUtil {
 		return true;
 	}
 
+
+	public static boolean writeFile(InputStream input,String outputPath) {
+
+		File file = new File(outputPath);
+		if (!createDirectory(file.getParent())) {
+			return false;
+		}
+
+		try (PrintStream pStream = new PrintStream(file)) {
+
+			// if file doesn't exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+			int temp = 0;  
+			byte[] buf = new byte[10240];
+	        try {  
+	        	while((temp = input.read(buf))!=-1){   
+	        		pStream.write(temp);
+	            }   
+	        } catch (IOException e) {  
+	            e.printStackTrace();  
+	        } finally{
+	            try {
+	        		pStream.flush();
+	            	input.close();
+	            	pStream.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+	        }
+		} catch (IOException e) {
+			e.printStackTrace();
+			return false;
+		}
+
+		return false;
+	}
+
+	public static boolean writeFile(InputStream input,String outputPath,boolean append) {
+
+		File file = new File(outputPath);
+		if (!createDirectory(file.getParent())) {
+			return false;
+		}
+
+		try (FileOutputStream fos = new FileOutputStream(file,append)) {
+
+			// if file doesn't exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+			int temp = 0;  
+			byte[] buf = new byte[10240];
+	        try {  
+	        	while((temp = input.read(buf))!=-1){   
+	        		fos.write(temp);
+	            }   
+	        } catch (IOException e) {  
+	            e.printStackTrace();  
+	        } finally{
+	            try {
+	            	fos.flush();
+	            	input.close();
+	            	fos.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+	        }
+		} catch (IOException e) {
+			e.printStackTrace();
+			return false;
+		}
+
+		return false;
+	}
+
+	public static boolean writeFile(byte[] buf ,String outputPath) {
+
+		File file = new File(outputPath);
+		if (!createDirectory(file.getParent())) {
+			return false;
+		}
+
+		try (PrintStream pStream = new PrintStream(file)) {
+
+			// if file doesn't exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+	        try {  
+	        		pStream.write(buf);
+
+	        } catch (IOException e) {  
+	            e.printStackTrace();  
+	        } finally{
+	            try {
+	        		pStream.flush();
+	            	pStream.close();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+	        }
+		} catch (IOException e) {
+			e.printStackTrace();
+			return false;
+		}
+
+		return false;
+	}
 }
+
+
+```
