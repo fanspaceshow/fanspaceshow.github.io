@@ -43,6 +43,8 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
+- <a href="https://jingyan.baidu.com/article/59703552e877f98fc00740f0.html" target="_blank">如何生成android的keystore文件</a>  
+
 
 ### <span id="python">&nbsp;Python</span>  
 - <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
