@@ -1,5 +1,3 @@
-``` java
-
 package com.circle.core.util;
 
 import java.io.File;
@@ -9,6 +7,10 @@ import java.io.InputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.io.PrintWriter;
+
+import org.apache.xml.serializer.ToSAXHandler;
+
+import com.google.common.base.Ticker;
 
 public class FileUtil {
 
@@ -22,6 +24,31 @@ public class FileUtil {
 		int splitIndex = path.lastIndexOf(".");
 		int splitStart = path.lastIndexOf(File.separator) + 1;
 		return path.substring(splitStart, splitIndex);
+	}
+
+	/**
+	 * 从文件路径中截取文件名，含后缀
+	 *
+	 * @param path
+	 * @return
+	 */
+	public static String getFileNameAndExtend(String path) {
+		int splitStart = path.lastIndexOf(File.separator) + 1;
+		return path.substring(splitStart);
+	}
+
+	/**
+	 * 从文件路径中截取文件名，含后缀
+	 *
+	 * @param path
+	 * @return
+	 */
+	public static String replaceExtend(String path,String extend) {
+		int splitEnd = path.lastIndexOf(".")+1;
+		StringBuilder sBuilder = new StringBuilder();
+		sBuilder.append(path.substring(0, splitEnd));
+		sBuilder.append(extend);
+		return sBuilder.toString();
 	}
 
 	/**
@@ -139,7 +166,7 @@ public class FileUtil {
 			}
 
 			int temp = 0;  
-			byte[] buf = new byte[10240];
+			byte[] buf = new byte[524288];
 	        try {  
 	        	while((temp = input.read(buf))!=-1){   
 	        		pStream.write(temp);
@@ -178,7 +205,7 @@ public class FileUtil {
 			}
 
 			int temp = 0;  
-			byte[] buf = new byte[10240];
+			byte[] buf = new byte[524288];
 	        try {  
 	        	while((temp = input.read(buf))!=-1){   
 	        		fos.write(temp);
@@ -237,6 +264,3 @@ public class FileUtil {
 		return false;
 	}
 }
-
-
-```
