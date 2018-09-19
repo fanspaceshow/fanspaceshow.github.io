@@ -4,7 +4,7 @@
 
 ### <span id="learn">Ebook</span>  
 - <a href="#" class="pdf-type">超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf</a>  
-- <a href="#" class="pdf-type">阿里巴巴Java开发手册.pdf](ebook/阿里巴巴Java开发手册.pdf</a>  
+- <a href="#" class="pdf-type">阿里巴巴Java开发手册.pdf</a>  
 - <a href="#" class="pdf-type">JavaScript语言精粹(修订版高清PDF书籍).pdf</a>  
 
 
