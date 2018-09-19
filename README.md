@@ -85,6 +85,7 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - [join介绍](2018/join.md)  
 - [树状搜索](2018/tree-search.md)  
 
+<script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
 
-<script>
+</script>
