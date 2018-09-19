@@ -91,11 +91,15 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 <script type="text/javascript">
   $(function(){
     var pdfArr = $("a.pdf-type");
-    console.log(pdfArr);
+    var urlStart = "generic/web/viewer.html?file=ebook/";
+    
     pdfArr.each(function(index,element){
        var aLabel = $(this);
        aLabel.click(function(){
-          window.location.href = "http://www.baidu.com";
+          
+          var url = urlStart+aLabel.html();
+          //window.location.href = "http://www.baidu.com";
+          window.open(url);
        });
     });    
   });
