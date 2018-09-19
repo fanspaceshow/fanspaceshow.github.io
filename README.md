@@ -3,9 +3,11 @@
 - [今天午饭吃什么？](2018/test/lunch.html)  
 
 ### <span id="learn">Ebook</span>  
-- [超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf](ebook/超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf)  
-- [阿里巴巴Java开发手册.pdf](ebook/阿里巴巴Java开发手册.pdf)  
-- [JavaScript语言精粹(修订版高清PDF书籍).pdf](ebook/JavaScript语言精粹(修订版高清PDF书籍).pdf)  
+- <a href="#" target="_blank" class="pdf-type">超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf</a>  
+- <a href="#" target="_blank" class="pdf-type">阿里巴巴Java开发手册.pdf](ebook/阿里巴巴Java开发手册.pdf</a>  
+- <a href="#" target="_blank" class="pdf-type">JavaScript语言精粹(修订版高清PDF书籍).pdf</a>  
+
+
 
 ### <span id="learn">学习经验</span>  
 
@@ -87,5 +89,13 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 
 <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
-
+  $(function(){
+    var pdfArr = $(a.pdf-type);
+    pdfArr.each(function(index,element){
+       var aLabel = $(this);
+       aLabel.click(function(){
+          window.location.href = "http://www.baidu.com";
+       });
+    });    
+  });
 </script>
