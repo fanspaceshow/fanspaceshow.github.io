@@ -91,6 +91,7 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 <script type="text/javascript">
   $(function(){
     var pdfArr = $(a.pdf-type);
+    console.log(pdfArr);
     pdfArr.each(function(index,element){
        var aLabel = $(this);
        aLabel.click(function(){
