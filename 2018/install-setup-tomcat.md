@@ -9,13 +9,13 @@ D:\apache-tomcat-7.0.67
 ```
 >CATALINA_HOME
 ```
-D:\apache-tomcat-7.0.67 
+D:\apache-tomcat-7.0.67
 ```
 >JAVA_HOME
 ```
-D:\Program Files\Java\jdk1.6.0_45 
+D:\Program Files\Java\jdk1.6.0_45
 ```
->CLASSPATH 
+>CLASSPATH
 ```
 %JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
 %CATALINA_HOME%\lib\servlet-api.jar
@@ -87,7 +87,7 @@ windows平台：进入控制面板\管理工具\服务
   <role rolename="admin-gui"/>
   <role rolename="manager-gui"/>
 <user username="admin" password="123456" roles="manager-gui,admin-gui"/>
-  
+
   <user username="tomcat" password="tomcat" roles="tomcat"/>
   <user username="both" password="tomcat" roles="tomcat,role1"/>
   <user username="role1" password="tomcat" roles="role1"/>
@@ -97,7 +97,7 @@ windows平台：进入控制面板\管理工具\服务
 
 - 6 设置上传文件大小限制
     1. >D:\apache-tomcat-7.0.67\webapps\manager\WEB-INF\web.xml  
-    
+
     在web.xml文件中，有如下代码
     ```XML
     <multipart-config>
@@ -108,5 +108,8 @@ windows平台：进入控制面板\管理工具\服务
     </multipart-config>
     ```
     默认最大50MB，修改后保存即可。然后重启tomcat。
-    
-      
+
+``` bat
+set JAVA_OPTS=%JAVA_OPTS% -server -Xms512m -Xmx512m -XX:PermSize=512m -XX:MaxPermSize=512m
+
+```
