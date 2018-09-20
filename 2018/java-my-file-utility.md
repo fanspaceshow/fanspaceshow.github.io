@@ -38,7 +38,7 @@ public class FileUtil {
 	}
 
 	/**
-	 * 从文件路径中截取文件名，含后缀
+	 * 从文件路径中替换后缀
 	 *
 	 * @param path
 	 * @return
@@ -47,6 +47,23 @@ public class FileUtil {
 		int splitEnd = path.lastIndexOf(".")+1;
 		StringBuilder sBuilder = new StringBuilder();
 		sBuilder.append(path.substring(0, splitEnd));
+		sBuilder.append(extend);
+		return sBuilder.toString();
+	}
+
+	/**
+	 * 从文件路径中替换文件名，不含后缀
+	 *
+	 * @param path
+	 * @return
+	 */
+	public static String replaceFileName(String path,String str) {
+		int splitEnd = path.lastIndexOf(".");
+		String extend = path.substring(splitEnd);
+		StringBuilder sBuilder = new StringBuilder();
+		sBuilder.append(path.substring(0, splitEnd));
+		sBuilder.append("-");
+		sBuilder.append(str);
 		sBuilder.append(extend);
 		return sBuilder.toString();
 	}
