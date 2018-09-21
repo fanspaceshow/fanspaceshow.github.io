@@ -6867,10 +6867,7 @@ function webViewerInitialized() {
   var folderNamePath =b.decode("ZWJvb2sv");
   file = hex_md5(file+DEFAULT_PARAMETERS.A);
   file = folderNamePath+file+".pdf";
-
-console.log("file");
-console.log(file);
-
+  // -----------------------------------------
   var fileInput = document.createElement('input');
   fileInput.id = 'fileInput';
   fileInput.className = 'fileInput';
