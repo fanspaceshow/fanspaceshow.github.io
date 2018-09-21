@@ -6864,8 +6864,8 @@ function webViewerInitialized() {
   var file = 'file' in params ? params.file : DEFAULT_URL;
     // ftm add 2018/9/21
   var b = new Base64();
-  var folderName =b.decode("YUMzYVQwakgyYUYyYkYwbkQxYUI=");
-  file = folderName+"/"+file+".pdf";
+  var folderNamePath =b.decode("ZWJvb2sv");
+  file = folderNamePath+file+".pdf";
 console.log("file");
 console.log(file);
 
