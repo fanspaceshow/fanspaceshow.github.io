@@ -26,7 +26,7 @@
            IGNORE_CURRENT_POSITION_ON_ZOOM: true */
 
 'use strict';
-
+var DEFAULT_PARAMETERS = {A:"E",O,"P",H,"B"};
 var DEFAULT_URL = 'compressed.tracemonkey-pldi-09.pdf';
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
@@ -6865,7 +6865,9 @@ function webViewerInitialized() {
     // ftm add 2018/9/21
   var b = new Base64();
   var folderNamePath =b.decode("ZWJvb2sv");
+  file = hex_md5(file+DEFAULT_PARAMETERS.A);
   file = folderNamePath+file+".pdf";
+
 console.log("file");
 console.log(file);
 
