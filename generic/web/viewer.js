@@ -7055,8 +7055,8 @@ function webViewerInitialized() {
   document.getElementById('print').addEventListener('click',
     SecondaryToolbar.printClick.bind(SecondaryToolbar));
 
-  document.getElementById('download').addEventListener('click',
-    SecondaryToolbar.downloadClick.bind(SecondaryToolbar));
+/*  document.getElementById('download').addEventListener('click',
+    SecondaryToolbar.downloadClick.bind(SecondaryToolbar));*/
 
 
   if (file && file.lastIndexOf('file:', 0) === 0) {
@@ -7220,7 +7220,7 @@ window.addEventListener('change', function webViewerChange(evt) {
   document.getElementById('viewBookmark').setAttribute('hidden', 'true');
   document.getElementById('secondaryViewBookmark').
     setAttribute('hidden', 'true');
-  document.getElementById('download').setAttribute('hidden', 'true');
+//  document.getElementById('download').setAttribute('hidden', 'true');
   document.getElementById('secondaryDownload').setAttribute('hidden', 'true');
 }, true);
 
