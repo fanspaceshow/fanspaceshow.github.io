@@ -26,7 +26,7 @@
            IGNORE_CURRENT_POSITION_ON_ZOOM: true */
 
 'use strict';
-var DEFAULT_PARAMETERS = {A:"E",O,"P",H,"B"};
+var DEFAULT_PARAMETERS = {A:"E",O:"P",H:"B"};
 var DEFAULT_URL = 'compressed.tracemonkey-pldi-09.pdf';
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
