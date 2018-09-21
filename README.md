@@ -3,9 +3,9 @@
 - [今天午饭吃什么？](2018/test/lunch.html)  
 
 ### <span id="learn">Ebook</span>  
-- <a href="#" class="pdf-type">超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf</a>  
-- <a href="#" class="pdf-type">阿里巴巴Java开发手册.pdf</a>  
-- <a href="#" class="pdf-type">JavaScript语言精粹(修订版高清PDF书籍).pdf</a>  
+- <a href="#" class="pdf-name" data-code="aC3aT0jH2aF2bF0nD1aB">超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf</a>  
+- <a href="#" class="pdf-name" data-code="bD0dL7eR1aB3eG0iJ8bB">阿里巴巴Java开发手册.pdf</a>  
+- <a href="#" class="pdf-name" data-code="">JavaScript语言精粹(修订版高清PDF书籍).pdf</a>  
 
 
 
@@ -89,15 +89,16 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 
 <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
+
   $(function(){
-    var pdfArr = $("a.pdf-type");
-    var urlStart = "generic/web/viewer.html?file=ebook/";
-    
+    var pdfArr = $("a.pdf-name");
+    var urlStart = "generic/web/viewer.html?file=";
+
     pdfArr.each(function(index,element){
        var aLabel = $(this);
        aLabel.click(function(){
-          
-          var url = urlStart+aLabel.html();
+
+          var url = urlStart+aLabel.attr("data-code");
           //window.location.href = "http://www.baidu.com";
           window.open(url);
        });

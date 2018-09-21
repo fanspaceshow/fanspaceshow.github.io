@@ -6862,8 +6862,13 @@ function webViewerInitialized() {
   var queryString = document.location.search.substring(1);
   var params = PDFViewerApplication.parseQueryString(queryString);
   var file = 'file' in params ? params.file : DEFAULT_URL;
-  console.log("file");
+    // ftm add 2018/9/21
+  var b = new Base64();
+  var folderName =b.decode("YUMzYVQwakgyYUYyYkYwbkQxYUI=");
+  file = folderName+"/"+file+".pdf";
+console.log("file");
 console.log(file);
+
   var fileInput = document.createElement('input');
   fileInput.id = 'fileInput';
   fileInput.className = 'fileInput';
