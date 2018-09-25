@@ -15,10 +15,20 @@ import org.apache.xml.serializer.ToSAXHandler;
 import com.google.common.base.Ticker;
 
 public class FileUtil {
+	
+	/**
+	 * 判定文件或文件夹是否存在
+	 * @param path
+	 * @return
+	 */
+	public static boolean isExit(String path) {
+		File obj = new File(path);
+		return obj.exists();
+	}
 
 	/**
 	 * 从文件路径中截取文件名，不含后缀
-	 *
+	 * 
 	 * @param path
 	 * @return
 	 */
@@ -30,7 +40,7 @@ public class FileUtil {
 
 	/**
 	 * 从文件路径中截取文件名，含后缀
-	 *
+	 * 
 	 * @param path
 	 * @return
 	 */
@@ -41,7 +51,7 @@ public class FileUtil {
 
 	/**
 	 * 从文件路径中替换后缀
-	 *
+	 * 
 	 * @param path
 	 * @return
 	 */
@@ -55,7 +65,7 @@ public class FileUtil {
 
 	/**
 	 * 从文件路径中替换文件名，不含后缀
-	 *
+	 * 
 	 * @param path
 	 * @return
 	 */
@@ -72,7 +82,7 @@ public class FileUtil {
 
 	/**
 	 * 创建文件夹
-	 *
+	 * 
 	 * @param path
 	 * @return
 	 */
@@ -89,7 +99,7 @@ public class FileUtil {
 
 	/***
 	 * 删除文件夹
-	 *
+	 * 
 	 * @param folderPath
 	 */
 	// param folderPath 文件夹完整绝对路径
@@ -107,7 +117,7 @@ public class FileUtil {
 
 	/***
 	 * 删除指定文件夹下所有文件
-	 *
+	 * 
 	 * @param path
 	 * @return
 	 */
@@ -280,5 +290,6 @@ public class FileUtil {
 		return false;
 	}
 }
+
 
 ```
