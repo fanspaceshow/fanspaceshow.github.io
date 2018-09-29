@@ -41,6 +41,8 @@
 https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/FileCopyUtils.html" target="_blank">org.springframework.util.FileCopyUtils</a>  
 - [org.apache.commons.io.IOUtils](2018/apache-io.md)  
 - <a href="https://blog.csdn.net/zhu_xun/article/details/16842955" target="_blank">Socket bind failed: [730048]异常的处理</a>  
+- <a href="http://gqsunrise.iteye.com/blog/1995409" target="_blank">Tomcat与Jre绿色环境配置（生产环境）</a>  
+- <a href="https://blog.csdn.net/jw083411/article/details/8890184" target="_blank">制作一个绿色版本的Tomcat，自带jre</a>  
 
 
 ### <span id="android">&nbsp;Android</span>  
