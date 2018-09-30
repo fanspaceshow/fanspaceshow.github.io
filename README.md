@@ -55,6 +55,9 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 ### <span id="python">&nbsp;Python</span>  
 - <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
 - <a href="https://pypi.org/" target="_blank">The Python Package Index (PyPI) is a repository of software for the Python programming language.</a>  
+- <a href="https://blog.csdn.net/jingbo18/article/details/78535821" target="_blank">python自定义模块</a>  
+- <a href="https://www.cnblogs.com/master-pokemon/p/6136483.html" target="_blank">python import自定义模块方法</a>  
+
 
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
