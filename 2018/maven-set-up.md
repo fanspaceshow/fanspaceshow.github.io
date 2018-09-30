@@ -45,7 +45,23 @@
  </mirrors>
 ```  
 
-【3】官方提供的Jeecg本地仓库下载 (非必须步骤)
+【3】配置默认jdk  
+``` xml
+<profile>    
+    <id>jdk-1.8</id>    
+     <activation>    
+          <activeByDefault>true</activeByDefault>    
+          <jdk>1.8</jdk>    
+      </activation>    
+   <properties>    
+    <maven.compiler.source>1.8</maven.compiler.source>    
+    <maven.compiler.target>1.8</maven.compiler.target>    
+    <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>    
+   </properties>    
+</profile>
+```
+
+【4】官方提供的Jeecg本地仓库下载 (非必须步骤)
      如果因为网络等问题导致依赖下载总失败，可以直接下载官方提供的本地仓库覆盖本地仓库。下载地址：  [https://gitee.com/jeecg/jeecg-local-maven](https://gitee.com/jeecg/jeecg-local-maven)
 
 - 提示：
