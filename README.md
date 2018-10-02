@@ -59,13 +59,6 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - <a href="https://www.cnblogs.com/master-pokemon/p/6136483.html" target="_blank">python import自定义模块方法</a>  
 
 
-
-### <span id="ubuntu">&nbsp;Ubuntu</span>  
-- [Ubuntu下pip3的安装、升级、卸载](2018/ubuntu-pip3.md)  
-
-### <span id="centos">&nbsp;CentOS</span>  
-- [CentOS shell](2018/ubuntu-shell.md)  
-
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
 - [localStorage和sessionStorage操作](2018/localStorageAsessionStorage.md)  
 - [封装属于自己的JS库](2018/jquery-class.md)  
@@ -83,6 +76,16 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 
 ### <span id="css">&nbsp;CSS</span>  
 - [回到顶部总结](2018/backtop.md)  
+
+### <span id="jquery">&nbsp;Ruby Jekyll</span>  
+- <a href="https://segmentfault.com/a/1190000012468796" target="_blank">jekyll博客搭建之艰辛之路</a>  
+
+
+### <span id="ubuntu">&nbsp;Ubuntu</span>  
+- [Ubuntu下pip3的安装、升级、卸载](2018/ubuntu-pip3.md)  
+
+### <span id="centos">&nbsp;CentOS</span>  
+- [CentOS shell](2018/ubuntu-shell.md)  
 
 ### <span id="vps">&nbsp;VPS</span>  
 - [shadowsocks搭建 Ubuntu版](2018/shadowsocks-set-up.md)  
