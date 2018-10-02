@@ -64,8 +64,8 @@ a = input("程序结束！")
 ```
 
 
-![image](img/clipboard.png)
-![image](img/clipboard.png)
+![image](img/python-my-model-1.png)
+![image](img/python-my-model-2.png)
 
 ```python
 
