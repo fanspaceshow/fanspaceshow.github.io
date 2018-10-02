@@ -1,6 +1,7 @@
 目录结构  
 
 -- py  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--\_\_init\_\_.py  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--hello.py  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--main.py  
 
@@ -64,8 +65,10 @@ a = input("程序结束！")
 ```
 
 
-![image](img/python-my-model-1.png)
-
+![image](img/python-my-model-1.png)  
+-- py  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--\_\_init\_\_.py  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--main.py  
 ```python
 
 from mylib.hello import *
