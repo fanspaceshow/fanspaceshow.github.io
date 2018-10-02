@@ -80,7 +80,7 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 ### <span id="elfinder">&nbsp;elFinder</span>  
 - [定制化elFinder](2018/elfinder.md)  
 
-### <span id="jquery">&nbsp;Ruby Jekyll</span>  
+### <span id="jquery">&nbsp;Ruby-Jekyll</span>  
 - <a href="https://segmentfault.com/a/1190000012468796" target="_blank">jekyll博客搭建之艰辛之路</a>  
 
 
