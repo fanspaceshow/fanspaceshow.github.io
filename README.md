@@ -86,7 +86,7 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - <a href="http://jekyllcn.com/" target="_blank">jekyllcn 中文网站</a>  
 - <a href="https://jekyllrb.com/" target="_blank">jekyllrb 英文网站</a>  
 - <a href="http://jekyllthemes.org/" target="_blank">jekyll 主题</a>  
-
+- <a href="https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme" target="_blank">jekyll-theme</a>  
 
 
 ### <span id="ubuntu">&nbsp;Ubuntu</span>  
