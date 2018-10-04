@@ -76,7 +76,7 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - [jquery dialog using iframe url](2018/jqueryui-dlg.md)  
 - [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
 
-### <span id="jquery">&nbsp;Ruby-Jekyll</span>  
+### <span id="Ruby-Jekyll">&nbsp;Ruby-Jekyll</span>  
 - <a href="https://segmentfault.com/a/1190000012468796" target="_blank">jekyll博客搭建之艰辛之路</a>  
 - <a href="http://jekyllcn.com/" target="_blank">jekyllcn 中文网站</a>  
 - <a href="https://jekyllrb.com/" target="_blank">jekyllrb 英文网站</a>  
