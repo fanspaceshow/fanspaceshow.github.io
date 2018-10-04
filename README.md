@@ -66,6 +66,8 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - [JavaScript封装的各种写法](2018/js-encapsulation.md)  
 - <a href="http://www.runoob.com/w3cnote/es6-concise-tutorial.html" target="_blank">ECMAScript 6 简明教程</a>  
 - <a href="https://github.com/sorrycc/awesome-javascript" target="_blank">A collection of awesome browser-side JavaScript libraries, resources and shiny things</a>  
+- <a href="https://www.cnblogs.com/007sx/p/7520529.html" target="_blank">纯js(FormData)实现最简单的文件上传(后台使用MultipartFile)</a>  
+
 
 ### <span id="jquery">&nbsp;jQuery</span>  
 - [子页面获取父页面jQuery对象](2018/jquery-window-parent.md)  
