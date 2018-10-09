@@ -68,6 +68,8 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - <a href="http://www.runoob.com/w3cnote/es6-concise-tutorial.html" target="_blank">ECMAScript 6 简明教程</a>  
 - <a href="https://github.com/sorrycc/awesome-javascript" target="_blank">A collection of awesome browser-side JavaScript libraries, resources and shiny things</a>  
 - <a href="https://www.cnblogs.com/007sx/p/7520529.html" target="_blank">纯js(FormData)实现最简单的文件上传(后台使用MultipartFile)</a>  
+- <a href="https://blog.csdn.net/Java_Mike/article/details/77743132" target="_blank">PDF.js的使用教程</a>  
+
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  
