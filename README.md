@@ -3,7 +3,7 @@
 - [今天午饭吃什么？](2018/test/lunch.html)  
 
 ### <span id="learn">网址导航</span>  
-- [技术网址导航](2018/website-guide.md)  
+- [技术网址导航](2018/website-guide-technology.md)  
 
 ### <span id="learn">Ebook</span>  
 - <a href="#" class="pdf-name" data-code="eE6eE1hR1cF2cC0tD0lC">超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf</a>  
