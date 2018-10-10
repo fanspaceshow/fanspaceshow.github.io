@@ -6,6 +6,8 @@
 ### <span id="Python">Python</span>  
 - <a href="https://www.pythontab.com/" type="text/html" target="_blank">PythonTab</a>  
 - <a href="http://www.pythondoc.com/" type="text/html" target="_blank">PythonDoc</a>  
+- <a href="https://edu.csdn.net/promotion_activity?id=8?utm_source=edm0" type="text/html" target="_blank">CSDN Python课程</a>  
+
 
 ### <span id="PHP">PHP</span>  
 - <a href="http://php.net/" type="text/html" target="_blank">PHP官网</a>  
