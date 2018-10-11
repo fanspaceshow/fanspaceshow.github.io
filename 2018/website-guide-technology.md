@@ -1,6 +1,6 @@
 ### <span id="Java">Java</span>  
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
-- <a href="http://www.mldn.cn/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
+- <a href="http://www.mldn.cn/" type="text/html" target="_blank">魔乐科技</a>  
 
 
 ### <span id="Python">Python</span>  
