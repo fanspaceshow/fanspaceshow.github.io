@@ -12,6 +12,14 @@
 ### <span id="PHP">PHP</span>  
 - <a href="http://php.net/" type="text/html" target="_blank">PHP官网</a>  
 
+### <span id="Node">Node.js</span>  
+- <a href="https://nodejs.org/en/" type="text/html" target="_blank">Node.js官网</a>  
+
+### <span id="Node">Ruby</span>  
+- <a href="http://www.runoob.com/ruby/ruby-environment.html" type="text/html" target="_blank">Ruby官网</a>  
+
+
+
 ### <span id="writing">写作博客</span>  
 - <a href="https://www.jianshu.com/" type="text/html" target="_blank">简书</a>  
 
