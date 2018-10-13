@@ -48,6 +48,8 @@ https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/util/
 - [CommonUtil](2018/commoneutil.md)  
 - <a href="https://www.jianshu.com/p/cb21b4accdd9" target="_blank">Java 实现 markdown转Html</a>  
 - <a href="https://www.jianshu.com/p/317c2813aada" target="_blank">在自己的网站中使用MarkDown（Java）</a>  
+- <a href="https://blog.csdn.net/liuhuanchao/article/details/73012569" target="_blank">springboot异常之Whitelabel Error Page解决办法</a>  
+
 
 
 ### <span id="android">&nbsp;Android</span>  
