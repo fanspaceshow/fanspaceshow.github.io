@@ -1,6 +1,7 @@
 ### <span id="learn">帮你解决选择困难</span>  
 - [送女友什么生日礼物？](2018/test/index.html)  
 - [今天午饭吃什么？](2018/test/lunch.html)  
+- <a href="http://naotu.baidu.com/home" target="_blank">绘制脑图</a>  
 
 ### <span id="learn">网址导航</span>  
 - [技术网址导航](2018/website-guide-technology.md)  
