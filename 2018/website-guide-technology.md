@@ -1,6 +1,10 @@
 ### <span id="Java">Java</span>  
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
 - <a href="http://www.mldn.cn/" type="text/html" target="_blank">魔乐科技</a>  
+- <a href="http://ms.mingsoft.net/" type="text/html" target="_blank">铭飞科技</a>  
+- <a href="http://www.jeecg.org/" type="text/html" target="_blank">jeecg</a>  
+
+
 
 ### <span id="Java">SpringBoot</span>  
 - <a href="https://blog.csdn.net/wozhengtao/article/details/80147235springboot" type="text/html" target="_blank">
