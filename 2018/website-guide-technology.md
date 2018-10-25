@@ -27,7 +27,6 @@ ityouknow/spring-boot-examples</a>
 
 ### <span id="Node">Node.js</span>  
 - <a href="https://nodejs.org/en/" type="text/html" target="_blank">Node.js官网</a>  
-- <a href="https://www.layui.com/" type="text/html" target="_blank">layui官网</a>  
 
 
 
@@ -41,3 +40,8 @@ ityouknow/spring-boot-examples</a>
 
 ### <span id="writing">阿里云</span>  
 - <a href="https://edu.aliyun.com/" type="text/html" target="_blank">阿里云大学</a>  
+
+
+### Web前端框架  
+- <a href="http://amazeui.org/" type="text/html" target="_blank">Amaze ~ 妹子 UI</a>  
+- <a href="https://www.layui.com/" type="text/html" target="_blank">layui官网</a>  
