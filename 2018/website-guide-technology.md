@@ -43,5 +43,6 @@ ityouknow/spring-boot-examples</a>
 
 
 ### Web前端框架  
+- <a href="https://blog.csdn.net/qq_35624642/article/details/68482926" type="text/html" target="_blank">推荐几个精致的web UI框架及常用前端UI框架</a>  
 - <a href="http://amazeui.org/" type="text/html" target="_blank">Amaze ~ 妹子 UI</a>  
 - <a href="https://www.layui.com/" type="text/html" target="_blank">layui官网</a>  
