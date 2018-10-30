@@ -10,3 +10,5 @@ set PATH=%PATH%;%JRE_HOME%\bin
 call %CATALINA_HOME%\bin\startup.bat 
 #pause
 ```
+
+![image](img/tomcat-uncompressed-1.png)  
