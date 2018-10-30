@@ -10,5 +10,5 @@ set PATH=%PATH%;%JRE_HOME%\bin
 call %CATALINA_HOME%\bin\startup.bat 
 #pause
 ```
-
+### 一键解压安装版目录结构
 ![image](img/tomcat-uncompressed-1.png)  
