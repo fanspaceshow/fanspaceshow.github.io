@@ -47,3 +47,4 @@ ityouknow/spring-boot-examples</a>
 - <a href="http://amazeui.org/" type="text/html" target="_blank">Amaze ~ 妹子 UI</a>  
 - <a href="https://www.layui.com/" type="text/html" target="_blank">layui官网</a>  
 - <a href="http://www.getuikit.net/index.html" type="text/html" target="_blank">uikit官网</a>  
+- <a href="https://muse-ui.org/#/zh-CN" type="text/html" target="_blank">Muse-UI</a>  
