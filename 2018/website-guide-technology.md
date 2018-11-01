@@ -47,3 +47,7 @@ ityouknow/spring-boot-examples</a>
 - <a href="http://amazeui.org/" type="text/html" target="_blank">Amaze ~ 妹子 UI</a>  
 - <a href="https://www.layui.com/" type="text/html" target="_blank">layui官网</a>  
 - <a href="http://www.h-ui.net/index.shtml" type="text/html" target="_blank">h-ui</a>  
+
+### 技术贴  
+- <a href="https://jingyan.baidu.com/article/3c48dd34491d47e10be358b8.html" type="text/html" target="_blank">
+如何查看某个端口被谁占用</a>  
