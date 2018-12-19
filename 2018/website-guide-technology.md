@@ -4,6 +4,8 @@
 - <a href="http://ms.mingsoft.net/" type="text/html" target="_blank">铭飞科技</a>  
 - <a href="http://www.jeecg.org/" type="text/html" target="_blank">jeecg</a>  
 - <a href="https://www.webjars.org/" type="text/html" target="_blank">WebJars are client-side web libraries</a>  
+- <a href="http://www.jpress.io/" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
+- <a href="https://github.com/otale/tale/wiki" type="text/html" target="_blank">欢迎开始 Tale 博客之旅</a>  
 
 
 
