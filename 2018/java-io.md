@@ -1,0 +1,1 @@
+!(img)[2018/img/iostream2xx.png]
