@@ -2,15 +2,18 @@
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
 - <a href="http://www.mldn.cn/" type="text/html" target="_blank">魔乐科技</a>  
 - <a href="http://ms.mingsoft.net/" type="text/html" target="_blank">铭飞科技</a>  
-- <a href="http://www.jeecg.org/" type="text/html" target="_blank">jeecg</a>  
 - <a href="https://www.webjars.org/" type="text/html" target="_blank">WebJars are client-side web libraries</a>  
-- <a href="http://www.jpress.io/" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
-- <a href="https://github.com/otale/tale/wiki" type="text/html" target="_blank">欢迎开始 Tale 博客之旅</a>  
 
+### Java开发框架
+- <a href="http://www.jeecg.org/" type="text/html" target="_blank">JEECG是一款基于代码生成器的J2EE快速开发平台</a>  
+- <a href="https://www.jfinal.com/" type="text/html" target="_blank">JFinal 极速开发框架</a>  
+- <a href="https://spring.io/" type="text/html" target="_blank">SpringBoot you can "just run".</a>  
+- <a href="http://www.jpress.io/" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
+- <a href="https://www.jfinal.com/project/3" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
 
 
 ### <span id="Java">SpringBoot</span>  
-- <a href="https://blog.csdn.net/wozhengtao/article/details/80147235springboot" type="text/html" target="_blank">
+- <a href="http://ityouknow.com/springboot/2015/12/30/springboot-collect.html" type="text/html" target="_blank">
 学习资料汇总</a>  
 - <a href="https://github.com/ityouknow/spring-boot-examples" type="text/html" target="_blank">
 ityouknow/spring-boot-examples</a>  
