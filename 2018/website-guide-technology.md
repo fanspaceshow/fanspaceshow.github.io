@@ -9,7 +9,7 @@
 - <a href="https://www.jfinal.com/" type="text/html" target="_blank">JFinal 极速开发框架</a>  
 - <a href="https://spring.io/" type="text/html" target="_blank">SpringBoot you can "just run".</a>  
 - <a href="http://www.jpress.io/" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
-- <a href="https://www.jfinal.com/project/3" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
+- <a href="https://www.jfinal.com/project/3" type="text/html" target="_blank">JPress，一个wordpress的java代替版本</a>  
 
 
 ### <span id="Java">SpringBoot</span>  
