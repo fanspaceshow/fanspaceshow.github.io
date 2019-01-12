@@ -73,7 +73,8 @@ javadoc - The Java API Documentation Generator
 ### <span id="android">&nbsp;Android</span>  
 - [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
 - <a href="https://jingyan.baidu.com/article/59703552e877f98fc00740f0.html" target="_blank">如何生成android的keystore文件</a>  
-- [Android 取消标题栏](2018/android-actionbar.md)  
+- [Android 取消标题栏](2019/android-actionbar.md)  
+- [布局 LinearLayout](2019/android-linearlayout.md)
 
 
 ### <span id="python">&nbsp;Python</span>  
