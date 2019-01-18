@@ -26,3 +26,5 @@ word-break:break-all;
 ``` CSS
 overflow:hidden;
 ```
+
+<a href="https://jingyan.baidu.com/article/e75aca855b1500142edac6d0.html" target="_blank">word-wrap、white-space和word break的区别</a>  
