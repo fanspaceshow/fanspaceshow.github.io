@@ -76,6 +76,7 @@ javadoc - The Java API Documentation Generator
 - [Android 取消标题栏](2019/android-actionbar.md)  
 - [布局 LinearLayout](2019/android-linearlayout.md)  
 - <a href="https://blog.csdn.net/u011368551/article/details/80899838" target="_blank">Android设置View的背景透明</a>  
+- <a href="https://www.cnblogs.com/releasing/p/5236806.html" target="_blank">android开发中监听器的三种实现方法（OnClickListener）</a>  
 
 
 ### <span id="python">&nbsp;Python</span>  
