@@ -3,7 +3,7 @@
 - <a href="http://www.mldn.cn/" type="text/html" target="_blank">魔乐科技</a>  
 - <a href="http://ms.mingsoft.net/" type="text/html" target="_blank">铭飞科技</a>  
 - <a href="https://www.webjars.org/" type="text/html" target="_blank">WebJars are client-side web libraries</a>  
-- <a href="https://my.oschina.net/sundasheng44/blog/793781" type="text/html" target="_blank">eclipse装插件，报错An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust p</a>  
+- <a href="https://my.oschina.net/sundasheng44/blog/793781" type="text/html" target="_blank">eclipse装插件，报错An error occurred during the org.eclipse.equinox.internal.p2.engine.phases.CheckTrust phase</a>  
 
 ### Java开发框架
 - <a href="http://www.jeecg.org/" type="text/html" target="_blank">JEECG是一款基于代码生成器的J2EE快速开发平台</a>  
