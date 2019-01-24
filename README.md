@@ -77,6 +77,7 @@ javadoc - The Java API Documentation Generator
 - [布局 LinearLayout](2019/android-linearlayout.md)  
 - <a href="https://blog.csdn.net/u011368551/article/details/80899838" target="_blank">Android设置View的背景透明</a>  
 - <a href="https://www.cnblogs.com/releasing/p/5236806.html" target="_blank">android开发中监听器的三种实现方法（OnClickListener）</a>  
+- <a href="https://www.cnblogs.com/leichentao0905/p/6991761.html" target="_blank">Android OkHttp3（完美封装）Get异步获取数据、Post异步获取数据、Form表单提交、文件下载</a>  
 
 
 ### <span id="python">&nbsp;Python</span>  
@@ -97,8 +98,6 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/Java_Mike/article/details/77743132" target="_blank">PDF.js的使用教程</a>  
 - <a href="https://www.jb51.net/article/89816.htm" target="_blank">浅谈js中子页面父页面方法 变量相互调用</a>  
 - <a href="http://www.cnblogs.com/karila/p/5991340.html" target="_blank">js获取url传递参数，js获取url？号后面的参数</a>  
-
-
 
 
 
