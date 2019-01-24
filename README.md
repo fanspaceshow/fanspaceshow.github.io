@@ -65,7 +65,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/u012228718/article/details/40985577" target="_blank">Itext 实际项目案例</a>  
 - <a href="http://www.anyrt.com/blog/list/itextpdf.html" target="_blank">Java iText导出pdf功能实现</a>  
 - [java-io](2018/java-io.md) 
-
+- <a href="https://www.cnblogs.com/andywithu/p/7357069.html" target="_blank">java8之lambda表达式入门</a>  
 
 
 
