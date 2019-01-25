@@ -67,6 +67,7 @@ javadoc - The Java API Documentation Generator
 - <a href="http://www.anyrt.com/blog/list/itextpdf.html" target="_blank">Java iText导出pdf功能实现</a>  
 - [java-io](2018/java-io.md) 
 - <a href="https://www.cnblogs.com/andywithu/p/7357069.html" target="_blank">java8之lambda表达式入门</a>  
+- <a href="https://www.cnblogs.com/boluoboluo/p/6504641.html" target="_blank">java中文和unicode编码相互转换(转)</a>  
 
 
 
