@@ -101,6 +101,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/Java_Mike/article/details/77743132" target="_blank">PDF.js的使用教程</a>  
 - <a href="https://www.jb51.net/article/89816.htm" target="_blank">浅谈js中子页面父页面方法 变量相互调用</a>  
 - <a href="http://www.cnblogs.com/karila/p/5991340.html" target="_blank">js获取url传递参数，js获取url？号后面的参数</a>  
+- <a href="http://www.runoob.com/jsref/jsref-eval.html" target="_blank">根据函数名字符串调用函数</a>  
 
 
 
