@@ -3,7 +3,7 @@
 - [今天午饭吃什么？](2018/test/lunch.html)  
 - <a href="http://naotu.baidu.com/home" target="_blank">绘制脑图</a>  
 - [装修--产品化思维](2018/zhuangxiu.md)
-http://www.akb48.com.cn/
+
 
 ### <span id="learn">网址导航</span>  
 - [技术网址导航](2018/website-guide-technology.md)  
