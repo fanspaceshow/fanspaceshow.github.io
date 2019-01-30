@@ -8,6 +8,10 @@
 ### <span id="learn">网址导航</span>  
 - [技术网址导航](2018/website-guide-technology.md)  
 
+### <span id="learn">IBM笔记</span>  
+- [IBM-doc-sso.key](2019/IBM-doc-sso.key.md)  
+
+
 ### <span id="learn">Ebook</span>  
 - <a href="#" class="pdf-name" data-code="eE6eE1hR1cF2cC0tD0lC">超实用的JavaScript代码段_扫描版_8.55M(jb51.net).pdf</a>  
 - <a href="#" class="pdf-name" data-code="bD0dL7eR1aB3eG0iJ8bB">阿里巴巴Java开发手册.pdf</a>  
@@ -102,6 +106,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.jb51.net/article/89816.htm" target="_blank">浅谈js中子页面父页面方法 变量相互调用</a>  
 - <a href="http://www.cnblogs.com/karila/p/5991340.html" target="_blank">js获取url传递参数，js获取url？号后面的参数</a>  
 - <a href="http://www.runoob.com/jsref/jsref-eval.html" target="_blank">根据函数名字符串调用函数</a>  
+- <a href="http://freemarker.foofun.cn/" target="_blank">FreeMarker 中文官方参考手册</a>  
 
 
 
