@@ -1,5 +1,3 @@
-``` java  
-
 package com.circle.core.util;
 
 import java.io.File;
@@ -9,12 +7,55 @@ import java.io.InputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintStream;
 import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.xml.serializer.ToSAXHandler;
+import org.jeecgframework.core.util.FileUtils;
+import org.jeecgframework.core.util.ResourceUtil;
+import org.jeecgframework.core.util.UUIDGenerator;
 
 import com.google.common.base.Ticker;
 
 public class FileUtil {
+	
+	public static void renameFile(List<String> filepathList,List<String> fileRenameList) {
+		
+		for (int i=0;i<filepathList.size();i++) {
+			File oldFile = new File(ResourceUtil.getConfigByName("workware")+
+					filepathList.get(i));
+			File newFile = new File(ResourceUtil.getConfigByName("workware")+
+					fileRenameList.get(i));
+			oldFile.renameTo(newFile);
+		}
+		
+	}
+	
+	/**
+	 * 复制文件夹
+	 * @param sourcePath
+	 * @param newPath
+	 * @throws IOException
+	 */
+	public static void copyDir(String sourcePath, String newPath) throws IOException {
+        File file = new File(sourcePath);
+        String[] filePath = file.list();
+        
+        if (!(new File(newPath)).exists()) {
+            (new File(newPath)).mkdir();
+        }
+        
+        for (int i = 0; i < filePath.length; i++) {
+            if ((new File(sourcePath + file.separator + filePath[i])).isDirectory()) {
+                FileUtils.copyFile(sourcePath  + file.separator  + filePath[i], newPath  + file.separator + filePath[i]);
+            }
+            
+            if (new File(sourcePath  + file.separator + filePath[i]).isFile()) {
+            	FileUtils.copyFile(sourcePath + file.separator + filePath[i], newPath + file.separator + filePath[i]);
+            }
+            
+        }
+    }
 	
 	/**
 	 * 判定文件或文件夹是否存在
@@ -290,6 +331,3 @@ public class FileUtil {
 		return false;
 	}
 }
-
-
-```
