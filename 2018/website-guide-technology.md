@@ -14,6 +14,7 @@
 - <a href="https://spring.io/" type="text/html" target="_blank">SpringBoot you can "just run".</a>  
 - <a href="http://www.jpress.io/" type="text/html" target="_blank">JPress，开源、国产、更轻、更快。</a>  
 - <a href="https://www.jfinal.com/project/3" type="text/html" target="_blank">JPress，一个wordpress的java代替版本</a>  
+- <a href="http://freemarker.foofun.cn/" type="text/html" target="_blank">FreeMarker 中文官方参考手册</a>  
 
 
 ### <span id="Java">SpringBoot</span>  
