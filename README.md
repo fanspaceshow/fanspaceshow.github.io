@@ -108,7 +108,7 @@ javadoc - The Java API Documentation Generator
 - <a href="http://www.cnblogs.com/karila/p/5991340.html" target="_blank">js获取url传递参数，js获取url？号后面的参数</a>  
 - <a href="http://www.runoob.com/jsref/jsref-eval.html" target="_blank">根据函数名字符串调用函数</a>  
 - <a href="http://freemarker.foofun.cn/" target="_blank">FreeMarker 中文官方参考手册</a>  
-- <a href="https://blog.csdn.net/zhoumengshun/article/details/71405963">js下载文件简单操作</a>  
+- <a href="https://blog.csdn.net/zhoumengshun/article/details/71405963" target="_blank">js下载文件简单操作</a>  
 
 
 
