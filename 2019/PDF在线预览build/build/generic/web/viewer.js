@@ -147,7 +147,7 @@ function scrollIntoView(element, spot) {
   var offsetY = element.offsetTop + element.clientTop;
   var offsetX = element.offsetLeft + element.clientLeft;
   if (!parent) {
-    console.error('offsetParent is not set -- cannot scroll');
+    
     return;
   }
   while (parent.clientHeight === parent.scrollHeight) {
@@ -764,7 +764,7 @@ var DownloadManager = (function DownloadManagerClosure() {
   }
 
   function DownloadManager() {}
-
+console.log("1111111111");
   DownloadManager.prototype = {
     downloadUrl: function DownloadManager_downloadUrl(url, filename) {
       if (!PDFJS.isValidUrl(url, true)) {
