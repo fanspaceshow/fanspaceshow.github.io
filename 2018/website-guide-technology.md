@@ -70,3 +70,7 @@ ityouknow/spring-boot-examples</a>
 
 ### VPS  
 - <a href="https://flyzyblog.com/" type="text/html" target="_blank">FLyzy's Blog</a>  
+
+### 在线学习平台
+- <a href="https://www.imooc.com/" type="text/html" target="_blank">慕课网</a>  
+- <a href="https://www.jikexueyuan.com/" type="text/html" target="_blank">极客学院</a>  
