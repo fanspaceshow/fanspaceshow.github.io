@@ -74,6 +74,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/boluoboluo/p/6504641.html" target="_blank">java中文和unicode编码相互转换(转)</a>  
 - <a href="https://www.cnblogs.com/jarl/p/5892956.html" target="_blank">Java数字格式化输出时前面补0</a>  
 - <a href="https://www.cnblogs.com/565261641-fzh/p/5825480.html" target="_blank">JAVA日期加减运算</a>  
+- <a href="http://commons.apache.org/proper/commons-lang/" target="_blank">JAVA StringUtils</a>  
 
 
 
