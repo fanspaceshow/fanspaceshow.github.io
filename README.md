@@ -75,6 +75,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/jarl/p/5892956.html" target="_blank">Java数字格式化输出时前面补0</a>  
 - <a href="https://www.cnblogs.com/565261641-fzh/p/5825480.html" target="_blank">JAVA日期加减运算</a>  
 - <a href="http://commons.apache.org/proper/commons-lang/" target="_blank">JAVA StringUtils</a>  
+- <a href="https://blog.csdn.net/cy_7030/article/details/81538663" target="_blank">这48个Java技术点，让你的面试成功率提升5倍！</a>  
 
 
 
