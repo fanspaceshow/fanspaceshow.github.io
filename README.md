@@ -77,6 +77,7 @@ javadoc - The Java API Documentation Generator
 - <a href="http://commons.apache.org/proper/commons-lang/" target="_blank">JAVA StringUtils</a>  
 - <a href="https://blog.csdn.net/cy_7030/article/details/81538663" target="_blank">这48个Java技术点，让你的面试成功率提升5倍！</a>  
 - <a href="https://blog.csdn.net/qq_41258204/article/details/82716394" target="_blank">Java面试技术点，提高面试成功率！</a>  
+- <a href="https://jingyan.baidu.com/article/c1a3101e7ccf91de656debc8.html" target="_blank">怎么不安装jre,jdk就运行java程序,jar包等</a>  
 
 
 
