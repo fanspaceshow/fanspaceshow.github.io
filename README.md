@@ -145,6 +145,7 @@ javadoc - The Java API Documentation Generator
 - [html 使表格随着内容自动适应宽度](2018/css-td.md) 
 - [Table CSS](2018/table-css.html) 
 - [Table2 CSS](2018/version-index.html) 
+- [CSS省略号text-overflow超出溢出显示省略号](text-overflow-ellipsis.html) 
 
 
 ### <span id="elfinder">&nbsp;elFinder</span>  
