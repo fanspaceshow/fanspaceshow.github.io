@@ -126,6 +126,8 @@ javadoc - The Java API Documentation Generator
 - [jQuery,选择器，选择父页面的元素](2018/fatherpage-sonpage.md)  
 - [jquery dialog using iframe url](2018/jqueryui-dlg.md)  
 - [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
+- <a href="https://blog.csdn.net/gaoweizang/article/details/52634174" target="_blank">jquery操作select下拉框：取值，赋值，删除</a> 
+
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
