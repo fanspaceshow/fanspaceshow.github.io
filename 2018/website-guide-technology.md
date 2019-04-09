@@ -63,6 +63,7 @@ ityouknow/spring-boot-examples</a>
 ### <span id="writing">阿里云</span>  
 - <a href="https://edu.aliyun.com/" type="text/html" target="_blank">阿里云大学</a>  
 - <a href="https://yq.aliyun.com/articles/69327?spm=5176.10695662.1996646101.searchclickresult.7eba6922PuCnMr" type="text/html" target="_blank">《阿里巴巴Java开发手册v1.4.0（详尽版）》更新，新增16条设计规约</a>  
+- <a href="https://yq.aliyun.com/articles/224817?spm=5176.10695662.1996646101.searchclickresult.7eba6922PuCnMr" type="text/html" target="_blank">《阿里巴巴Java开发手册》IDEA插件与Eclipse插件使用指南</a>  
 
 
 ### 技术贴  
