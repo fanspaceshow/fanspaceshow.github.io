@@ -79,6 +79,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/qq_41258204/article/details/82716394" target="_blank">Java面试技术点，提高面试成功率！</a>  
 - <a href="https://jingyan.baidu.com/article/c1a3101e7ccf91de656debc8.html" target="_blank">怎么不安装jre,jdk就运行java程序,jar包等</a>  
 - <a href="https://www.cnblogs.com/junrong624/p/4239517.html" target="_blank">cron表达式详解</a>  
+- <a href="https://www.cnblogs.com/dong-dong-dong/p/9547136.html" target="_blank">Log4J日志整合及配置详解</a>  
 
 
 
