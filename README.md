@@ -2,6 +2,7 @@
 - [送女友什么生日礼物？](2018/test/index.html)  
 - [今天午饭吃什么？](2018/test/lunch.html)  
 - <a href="http://naotu.baidu.com/home" target="_blank">绘制脑图</a>  
+- <a href="https://aipage.baidu.com/" target="_blank">智能建站和小程序</a>  
 - [装修--产品化思维](2018/zhuangxiu.md)
 
 
