@@ -1,5 +1,7 @@
 ### 在线工具资源网站
 - <a href="http://www.runoob.com/" type="text/html" target="_blank">Runoob</a>  
+- <a href="https://www.chromedownloads.net/" type="text/html" target="_blank">Chrome历史版本下载</a>  
+- <a href="http://www.android-studio.org/index.php/download/hisversion" type="text/html" target="_blank">android studio历史版本下载</a>  
 
 ### <span id="Java">Java</span>  
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
