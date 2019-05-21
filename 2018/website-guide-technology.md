@@ -38,7 +38,7 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://edu.csdn.net/promotion_activity?id=8?utm_source=edm0" type="text/html" target="_blank">CSDN Python课程</a>  
 
 ### JavaScript
-- <a href="http://www.runoob.com/" type="text/html" target="_blank">Runoob</a>  
+- <a href="http://es6.ruanyifeng.com/" type="text/html" target="_blank">ECMAScript 6 入门</a>  
 - <a href="http://www.akb48.com.cn/" type="text/html" target="_blank">AKB48</a>  
 - <a href="http://www.jeasyui.com/" type="text/html" target="_blank">jeasyui</a>  
 - <a href="https://developer.mozilla.org/zh-CN/" type="text/html" target="_blank">MDN web docs</a>  
