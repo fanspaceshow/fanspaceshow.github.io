@@ -74,6 +74,8 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://yq.aliyun.com/articles/69327?spm=5176.10695662.1996646101.searchclickresult.7eba6922PuCnMr" type="text/html" target="_blank">《阿里巴巴Java开发手册v1.4.0（详尽版）》更新，新增16条设计规约</a>  
 - <a href="https://yq.aliyun.com/articles/224817?spm=5176.10695662.1996646101.searchclickresult.7eba6922PuCnMr" type="text/html" target="_blank">《阿里巴巴Java开发手册》IDEA插件与Eclipse插件使用指南</a>  
 
+### <span id="writing">华为云</span>  
+- <a href="https://www.huaweicloud.com/" type="text/html" target="_blank">华为云</a>  
 
 ### 技术贴  
 - <a href="https://jingyan.baidu.com/article/3c48dd34491d47e10be358b8.html" type="text/html" target="_blank">
