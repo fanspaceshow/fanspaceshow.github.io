@@ -178,6 +178,10 @@ javadoc - The Java API Documentation Generator
 - [正则表达式简单语法及常用正则表达式](2019/zhengze.md)  
 
 
+### MiniDao
+- [MiniDao 插入insert一条数据，返回自增列ID](2019/minidao-id.md)  
+
+
 <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
 <script type="text/javascript">
 
