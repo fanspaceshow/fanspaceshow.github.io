@@ -1,5 +1,6 @@
 ### 在线工具资源网站
 - <a href="http://www.runoob.com/" type="text/html" target="_blank">Runoob</a>  
+- <a href="https://www.w3cschool.cn/" type="text/html" target="_blank">w3cschool</a>  
 - <a href="https://www.chromedownloads.net/" type="text/html" target="_blank">Chrome历史版本下载</a>  
 - <a href="http://www.android-studio.org/index.php/download/hisversion" type="text/html" target="_blank">android studio历史版本下载</a>  
 
@@ -77,6 +78,9 @@ ityouknow/spring-boot-examples</a>
 
 ### <span id="writing">华为云</span>  
 - <a href="https://www.huaweicloud.com/" type="text/html" target="_blank">华为云</a>  
+
+### 腾讯云
+- <a href="https://cloud.tencent.com/" type="text/html" target="_blank">腾讯云</a>  
 
 ### 技术贴  
 - <a href="https://jingyan.baidu.com/article/3c48dd34491d47e10be358b8.html" type="text/html" target="_blank">
