@@ -1,6 +1,7 @@
 ### 在线工具资源网站
 - <a href="http://www.runoob.com/" type="text/html" target="_blank">Runoob</a>  
 - <a href="https://www.w3cschool.cn/" type="text/html" target="_blank">w3cschool</a>  
+- <a href="https://www.liaoxuefeng.com/" type="text/html" target="_blank">廖雪峰的官方网站</a>  
 - <a href="https://www.chromedownloads.net/" type="text/html" target="_blank">Chrome历史版本下载</a>  
 - <a href="http://www.android-studio.org/index.php/download/hisversion" type="text/html" target="_blank">android studio历史版本下载</a>  
 
