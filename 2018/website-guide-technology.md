@@ -3,6 +3,8 @@
 - <a href="https://www.w3cschool.cn/" type="text/html" target="_blank">w3cschool</a>  
 - <a href="https://www.liaoxuefeng.com/" type="text/html" target="_blank">廖雪峰的官方网站</a>  
 - <a href="http://es6.ruanyifeng.com/" type="text/html" target="_blank">ECMAScript 6 入门</a>  
+- <a href="https://www.yiibai.com/" type="text/html" target="_blank">易百教程</a>  
+- <a href="https://code.ziqiangxuetang.com/" type="text/html" target="_blank">自强学堂 在线教程 - 学习、分享、让你更强！</a>  
 - <a href="https://www.chromedownloads.net/" type="text/html" target="_blank">Chrome历史版本下载</a>  
 - <a href="http://www.android-studio.org/index.php/download/hisversion" type="text/html" target="_blank">android studio历史版本下载</a>  
 
