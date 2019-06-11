@@ -64,7 +64,7 @@ windows平台：进入控制面板\管理工具\服务
 ![image](img/www.png)
 - 5 配置管理员角色
 在apache-tomcat-7.0.67\conf目录下，有一份配置文件“tomcat-users.xml”。打开这份文件，里面会有这么一段代码
-```XML
+``` XML
 <role rolename="tomcat"/>
   <role rolename="role1"/>
 
@@ -75,7 +75,7 @@ windows平台：进入控制面板\管理工具\服务
 
 在其中加上  
 
-```XML
+``` XML
   <role rolename="admin-gui"/>
   <role rolename="manager-gui"/>
   <user username="admin" password="123456" roles="manager-gui,admin-gui"/>
