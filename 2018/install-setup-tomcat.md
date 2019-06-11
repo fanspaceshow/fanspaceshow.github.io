@@ -71,12 +71,14 @@ windows平台：进入控制面板\管理工具\服务
   <user username="tomcat" password="tomcat"  roles="tomcat"/>
   <user username="both" password="tomcat"  roles="tomcat,role1"/>
   <user username="role1" password="tomcat"  roles="role1"/>
-```
-在其中加上
+```  
+
+在其中加上  
+
 ```XML
   <role rolename="admin-gui"/>
   <role rolename="manager-gui"/>
-<user username="admin" password="123456" roles="manager-gui,admin-gui"/>
+  <user username="admin" password="123456" roles="manager-gui,admin-gui"/>
 ```
 结果为
 ```XML
