@@ -81,6 +81,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://jingyan.baidu.com/article/c1a3101e7ccf91de656debc8.html" target="_blank">怎么不安装jre,jdk就运行java程序,jar包等</a>  
 - <a href="https://www.cnblogs.com/junrong624/p/4239517.html" target="_blank">cron表达式详解</a>  
 - <a href="https://www.cnblogs.com/dong-dong-dong/p/9547136.html" target="_blank">Log4J日志整合及配置详解</a>  
+- <a href="https://blog.csdn.net/xuaho0907/article/details/72191152" type="text/html" target="_blank">java中的public,private,protected修饰符,以及不写（默认）时的区别</a>  
 
 
 
@@ -180,6 +181,10 @@ javadoc - The Java API Documentation Generator
 
 ### MiniDao
 - [MiniDao 插入insert一条数据，返回自增列ID](2019/minidao-id.md)  
+
+### 技术贴  
+- <a href="https://jingyan.baidu.com/article/3c48dd34491d47e10be358b8.html" type="text/html" target="_blank">
+如何查看某个端口被谁占用</a>  
 
 
   
