@@ -125,7 +125,7 @@ javadoc - The Java API Documentation Generator
 - [临时笔记](2019/test.md)  
 - <a href="https://www.nodebeginner.org/index-zh-cn.html#javascript-and-nodejs" target="_blank">Node入门</a>   
 - <a href="https://www.cnblogs.com/zdz8207/p/vue-meta-no-cache.html" target="_blank">使用HTML meta no-cache标签来禁用缓存</a>   
-
+- [更改npm默认下载路径](2019/npmset.md)  
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  
