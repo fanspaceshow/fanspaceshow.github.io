@@ -50,30 +50,23 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://nodejs.org/en/" type="text/html" target="_blank">Node.js官网</a>  
 - <a href="https://electronjs.org/" type="text/html" target="_blank">Electron</a>  
 
-### <span id="Python">Python</span>  
-- <a href="https://www.python.org/" type="text/html" target="_blank">Python官网</a>  
-- <a href="https://www.pythontab.com/" type="text/html" target="_blank">PythonTab</a>  
-- <a href="http://www.pythondoc.com/" type="text/html" target="_blank">PythonDoc</a>  
-
-
 ### Web前端框架  
 - <a href="https://blog.csdn.net/qq_35624642/article/details/68482926" type="text/html" target="_blank">推荐几个精致的web UI框架及常用前端UI框架</a>  
 - <a href="http://amazeui.org/" type="text/html" target="_blank">Amaze ~ 妹子 UI</a>  
 - <a href="https://www.layui.com/" type="text/html" target="_blank">layui官网</a>  
 - <a href="http://www.h-ui.net/index.shtml" type="text/html" target="_blank">h-ui</a>  
 
+### 求职平台
+- <a href="http://www.jobshow.cn/" type="text/html" target="_blank">求职秀</a>  
+- <a href="https://www.zhipin.com/" type="text/html" target="_blank">boss直聘</a>  
 
 
 
 
-### <span id="PHP">PHP</span>  
-- <a href="http://php.net/" type="text/html" target="_blank">PHP官网</a>  
-
-
-
-### <span id="Ruby">Ruby</span>  
-- <a href="http://www.runoob.com/ruby/ruby-environment.html" type="text/html" target="_blank">Ruby官网</a>  
-
+### <span id="Python">Python</span>  
+- <a href="https://www.python.org/" type="text/html" target="_blank">Python官网</a>  
+- <a href="https://www.pythontab.com/" type="text/html" target="_blank">PythonTab</a>  
+- <a href="http://www.pythondoc.com/" type="text/html" target="_blank">PythonDoc</a>  
 
 
 ### <span id="writing">写作博客</span>  
@@ -93,7 +86,6 @@ ityouknow/spring-boot-examples</a>
 ### 腾讯云
 - <a href="https://cloud.tencent.com/" type="text/html" target="_blank">腾讯云</a>  
 
-
 ### VPS  
 - <a href="https://flyzyblog.com/" type="text/html" target="_blank">FLyzy's Blog</a>  
 
@@ -103,3 +95,11 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://edu.csdn.net/promotion_activity?id=8?utm_source=edm0" type="text/html" target="_blank">CSDN Python课程</a>  
 
 
+
+
+### <span id="PHP">PHP</span>  
+- <a href="http://php.net/" type="text/html" target="_blank">PHP官网</a>  
+
+
+### <span id="Ruby">Ruby</span>  
+- <a href="http://www.runoob.com/ruby/ruby-environment.html" type="text/html" target="_blank">Ruby官网</a>  
