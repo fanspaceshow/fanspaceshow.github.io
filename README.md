@@ -82,6 +82,13 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/junrong624/p/4239517.html" target="_blank">cron表达式详解</a>  
 - <a href="https://www.cnblogs.com/dong-dong-dong/p/9547136.html" target="_blank">Log4J日志整合及配置详解</a>  
 - <a href="https://blog.csdn.net/xuaho0907/article/details/72191152" type="text/html" target="_blank">java中的public,private,protected修饰符,以及不写（默认）时的区别</a>  
+- <a href="https://jingyan.baidu.com/article/86112f139be71727379787d8.html" type="text/html" target="_blank">IIS里面怎么获取域账号</a>  
+- <a href="https://blog.csdn.net/shuaizai88/article/details/48153399" type="text/html" target="_blank">request.getRemoteUser() 方法</a>  
+- <a href="https://blog.csdn.net/Juforg/article/details/84414421" type="text/html" target="_blank">JCIFS 自定义 域登录 SSO</a>  
+- <a href="https://bbs.csdn.net/topics/80461395" type="text/html" target="_blank">request getRemoteUser() </a>  
+- <a href="https://www.cnblogs.com/yzy-lengzhu/archive/2013/01/23/2873588.html" type="text/html" target="_blank">JAVA中使用jcifs集成AD域用户认证</a>
+
+
 
 
 
