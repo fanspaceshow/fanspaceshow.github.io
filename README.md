@@ -87,6 +87,8 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/Juforg/article/details/84414421" type="text/html" target="_blank">JCIFS 自定义 域登录 SSO</a>  
 - <a href="https://bbs.csdn.net/topics/80461395" type="text/html" target="_blank">request getRemoteUser() </a>  
 - <a href="https://www.cnblogs.com/yzy-lengzhu/archive/2013/01/23/2873588.html" type="text/html" target="_blank">JAVA中使用jcifs集成AD域用户认证</a>
+- <a href="https://www.cnblogs.com/zhangzb/p/5200418.html" type="text/html" target="_blank">JDK自带工具keytool生成ssl证书</a>  
+- <a href="https://www.chinassl.net/ssltools/keytool-commands.html" type="text/html" target="_blank">常用的Java Keytool Keystore命令</a>  
 
 
 
