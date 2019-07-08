@@ -91,23 +91,6 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.chinassl.net/ssltools/keytool-commands.html" type="text/html" target="_blank">常用的Java Keytool Keystore命令</a>  
 
 
-
-
-
-
-### <span id="android">&nbsp;Android</span>  
-- [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
-- <a href="https://jingyan.baidu.com/article/59703552e877f98fc00740f0.html" target="_blank">如何生成android的keystore文件</a>  
-- [Android 取消标题栏](2019/android-actionbar.md)  
-- [布局 LinearLayout](2019/android-linearlayout.md)  
-- <a href="https://blog.csdn.net/u011368551/article/details/80899838" target="_blank">Android设置View的背景透明</a>  
-- <a href="https://www.cnblogs.com/releasing/p/5236806.html" target="_blank">android开发中监听器的三种实现方法（OnClickListener）</a>  
-- <a href="https://www.cnblogs.com/leichentao0905/p/6991761.html" target="_blank">Android OkHttp3（完美封装）Get异步获取数据、Post异步获取数据、Form表单提交、文件下载</a>  
-- <a href="https://blog.csdn.net/zuo_er_lyf/article/details/82254316" target="_blank">Android Studio自带图标制作利器 Image Asset Studio</a>  
-- <a href="https://developer.android.google.cn/guide/" target="_blank">Android 文档</a>  
-
-
-
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
 - [localStorage和sessionStorage操作](2018/localStorageAsessionStorage.md)  
 - [封装属于自己的JS库](2018/jquery-class.md)  
@@ -139,6 +122,17 @@ javadoc - The Java API Documentation Generator
 - [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
 - <a href="https://blog.csdn.net/gaoweizang/article/details/52634174" target="_blank">jquery操作select下拉框：取值，赋值，删除</a>
 
+
+### <span id="android">&nbsp;Android</span>  
+- [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
+- <a href="https://jingyan.baidu.com/article/59703552e877f98fc00740f0.html" target="_blank">如何生成android的keystore文件</a>  
+- [Android 取消标题栏](2019/android-actionbar.md)  
+- [布局 LinearLayout](2019/android-linearlayout.md)  
+- <a href="https://blog.csdn.net/u011368551/article/details/80899838" target="_blank">Android设置View的背景透明</a>  
+- <a href="https://www.cnblogs.com/releasing/p/5236806.html" target="_blank">android开发中监听器的三种实现方法（OnClickListener）</a>  
+- <a href="https://www.cnblogs.com/leichentao0905/p/6991761.html" target="_blank">Android OkHttp3（完美封装）Get异步获取数据、Post异步获取数据、Form表单提交、文件下载</a>  
+- <a href="https://blog.csdn.net/zuo_er_lyf/article/details/82254316" target="_blank">Android Studio自带图标制作利器 Image Asset Studio</a>  
+- <a href="https://developer.android.google.cn/guide/" target="_blank">Android 文档</a>  
 
 ### <span id="python">&nbsp;Python</span>  
 - <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
