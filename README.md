@@ -107,13 +107,6 @@ javadoc - The Java API Documentation Generator
 - <a href="https://developer.android.google.cn/guide/" target="_blank">Android 文档</a>  
 
 
-### <span id="python">&nbsp;Python</span>  
-- <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
-- <a href="https://pypi.org/" target="_blank">The Python Package Index (PyPI) is a repository of software for the Python programming language.</a>  
-- <a href="https://blog.csdn.net/jingbo18/article/details/78535821" target="_blank">python自定义模块</a>  
-- <a href="https://www.cnblogs.com/master-pokemon/p/6136483.html" target="_blank">python import自定义模块方法</a>  
-- [python发布并导入自定义模块](2018/python-import-module.md)  
-- [python编译一个项目.pyc](2018/python-compileall.md)  
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
 - [localStorage和sessionStorage操作](2018/localStorageAsessionStorage.md)  
@@ -146,6 +139,14 @@ javadoc - The Java API Documentation Generator
 - [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
 - <a href="https://blog.csdn.net/gaoweizang/article/details/52634174" target="_blank">jquery操作select下拉框：取值，赋值，删除</a>
 
+
+### <span id="python">&nbsp;Python</span>  
+- <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
+- <a href="https://pypi.org/" target="_blank">The Python Package Index (PyPI) is a repository of software for the Python programming language.</a>  
+- <a href="https://blog.csdn.net/jingbo18/article/details/78535821" target="_blank">python自定义模块</a>  
+- <a href="https://www.cnblogs.com/master-pokemon/p/6136483.html" target="_blank">python import自定义模块方法</a>  
+- [python发布并导入自定义模块](2018/python-import-module.md)  
+- [python编译一个项目.pyc](2018/python-compileall.md)  
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
