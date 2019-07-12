@@ -179,6 +179,7 @@ javadoc - The Java API Documentation Generator
 - [join介绍](2018/join.md)  
 - [树状搜索](2018/tree-search.md)  
 - [sql server 分组排序](2019/fenzupaixu.md)
+- <a href="https://www.cnblogs.com/POLzj/p/6001381.html" type="text/html" target="_blank">SQL Server 2008 R2[ALTER]列属性修改</a>  
 
 
 ### <span id="regular">&nbsp;正则表达式</span>  
