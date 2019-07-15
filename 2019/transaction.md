@@ -17,7 +17,9 @@ Query Execution -> SQL Server -> ANSI
 
 显式事务 
 
+``` sql
 begin transaction 
 delete from erpdb.dbo.mtl_categories_b 
 rollback transaction 
 --commit transaction 
+```
