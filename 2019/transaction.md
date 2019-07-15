@@ -23,3 +23,5 @@ delete from erpdb.dbo.mtl_categories_b
 rollback transaction 
 --commit transaction 
 ```
+
+https://www.jb51.net/article/51014.htm
