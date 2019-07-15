@@ -24,4 +24,4 @@ rollback transaction
 --commit transaction 
 ```
 
-https://www.jb51.net/article/51014.htm
+<a href="https://www.jb51.net/article/51014.htm)" type="text/html" target="_blank">原文</a>  
