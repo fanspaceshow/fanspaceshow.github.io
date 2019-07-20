@@ -114,6 +114,7 @@ javadoc - The Java API Documentation Generator
 - [Ajax同步请求](2019/asynfalse.md)  
 - <a href="https://www.cnblogs.com/webbest/p/7161174.html" target="_blank">关于iframe跨域实践</a>   
 - <a href="https://blog.csdn.net/weixin_39214481/article/details/82023696" target="_blank">从零开始nodejs系列文章-nodejs到底能干什么</a>   
+- <a href="https://blog.csdn.net/ibmall/article/details/81390639" target="_blank">npm 安装 hexo 卡住问题解决</a>   
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  
