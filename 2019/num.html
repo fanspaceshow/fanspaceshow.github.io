@@ -1,0 +1,50 @@
+<title>JS统计还可以输入多少字数，用于向输入者提示信息</title>
+<SCRIPT language="javascript">
+<!--
+
+
+function gbcount(message,total,used,remain)
+{
+var max;
+max = total.value;
+if (message.value.length > max) {
+message.value = message.value.substring(0,max);
+used.value = max;
+remain.value = 0;
+<!-- alert("留言不能超过 200 个字!");-->
+alert("不能超过"+total.value+"个字!");
+}
+else {
+used.value = message.value.length;
+remain.value = max - used.value;
+}
+}
+
+-->
+</script>
+<style type="text/css">
+<!--
+* {padding:0; margin:0;}
+body, html {text-align:left; font-size:12px; line-height:150%; margin:0 auto; background:#fff; padding-top:20px;}
+fieldset {padding:10px; width:550px; margin:0 auto;}
+legend {font-size:14px; font-weight:bold;}
+.inputtext {border:none; background:#fff;}
+-->
+</style>
+</head>
+<body>
+<form action="SaveData.asp" method="post" >
+<fieldset><legend>请输入内容</legend>
+<textarea name="Memo" rows="10" wrap=PHYSICAL cols="75" onKeyDown="gbcount(this.form.Memo,this.form.total,this.form.used,this.form.remain);" onKeyUp="gbcount(this.form.Memo,this.form.total,this.form.used,this.form.remain);"></textarea>
+<p>最多字数：
+<input disabled maxLength="4" name="total" size="3" value="10" class="inputtext">
+已输入字数：
+<input disabled maxLength="4" name="used" size="3" value="0" class="inputtext">
+您还可以输入字数：
+<input disabled maxLength="4" name="remain" size="3" value="10" class="inputtext"></td>
+</p>
+--------------------- 
+作者：wang371134086 
+来源：CSDN 
+原文：https://blog.csdn.net/wang371134086/article/details/84264529 
+版权声明：本文为博主原创文章，转载请附上博文链接！

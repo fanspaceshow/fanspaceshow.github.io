@@ -115,6 +115,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/webbest/p/7161174.html" target="_blank">关于iframe跨域实践</a>   
 - <a href="https://blog.csdn.net/weixin_39214481/article/details/82023696" target="_blank">从零开始nodejs系列文章-nodejs到底能干什么</a>   
 - <a href="https://blog.csdn.net/ibmall/article/details/81390639" target="_blank">npm 安装 hexo 卡住问题解决</a>   
+- [JS 倒数还能输入多少字](2019/num.html) 
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  
