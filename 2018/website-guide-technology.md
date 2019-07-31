@@ -49,6 +49,7 @@ ityouknow/spring-boot-examples</a>
 ### <span id="Node">Node.js</span>  
 - <a href="https://nodejs.org/en/" type="text/html" target="_blank">Node.js官网</a>  
 - <a href="https://electronjs.org/" type="text/html" target="_blank">Electron</a>  
+- <a href="https://hexo.io/zh-cn/" type="text/html" target="_blank">Web博客：Hexo一个简单地、轻量地、基于Node的一个静态博客框架</a>  
 
 ### Web前端框架  
 - <a href="https://blog.csdn.net/qq_35624642/article/details/68482926" type="text/html" target="_blank">推荐几个精致的web UI框架及常用前端UI框架</a>  
