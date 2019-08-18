@@ -89,6 +89,14 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/yzy-lengzhu/archive/2013/01/23/2873588.html" type="text/html" target="_blank">JAVA中使用jcifs集成AD域用户认证</a>
 - <a href="https://www.cnblogs.com/zhangzb/p/5200418.html" type="text/html" target="_blank">JDK自带工具keytool生成ssl证书</a>  
 - <a href="https://www.chinassl.net/ssltools/keytool-commands.html" type="text/html" target="_blank">常用的Java Keytool Keystore命令</a>  
+https://www.jianshu.com/p/2da3623ce17b
+https://www.cnblogs.com/KingIceMou/p/6967754.html
+https://www.cnblogs.com/bingco/p/7975701.html
+https://www.jianshu.com/p/213710fb9e40
+https://www.cnblogs.com/bingco/p/7975701.html?tdsourcetag=s_pcqq_aiomsg
+https://www.jianshu.com/p/8846db296fad
+https://www.cnblogs.com/zhangzuiren/p/9929311.html
+https://www.cnblogs.com/trust-freedom/p/6606594.html
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
