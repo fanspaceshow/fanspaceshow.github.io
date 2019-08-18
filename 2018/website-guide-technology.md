@@ -73,8 +73,13 @@ ityouknow/spring-boot-examples</a>
 
 ### <span id="writing">写作博客</span>  
 - <a href="https://www.jianshu.com/" type="text/html" target="_blank">简书</a>  
+- <a href="https://github.com/cloose/CuteMarkEd" type="text/html" target="_blank">Markdown写作工具 CuteMarkEd</a>  
 - <a href="https://support.huaweicloud.com/bestpractice-ecs/zh-cn_topic_0149023604.html" type="text/html" target="_blank">手工搭建Ghost博客（Ubuntu 16.04）</a>  
-- <a href="https://bbs.huaweicloud.com/blogs/c63b1f83e87611e8bd5a7ca23e93a891" type="text/html" target="_blank">如何搭建自己的个人博客</a>  
+- <a href="https://bbs.huaweicloud.com/blogs/c63b1f83e87611e8bd5a7ca23e93a891" type="text/html" target="_blank">如何搭建自己的个人博客</a> 
+- <a href="https://www.cnblogs.com/xingyunblog/p/8681205.html" target="_blank">Hexo NexT 博客后台管理指南</a>   
+- <a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank">hexo的next主题个性化教程:打造炫酷网站</a>   
+- <a href="https://www.jianshu.com/p/33bc0a0a6e90" target="_blank">Hexo-修改Hexo主题</a>   
+- <a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank">使用hexo+github搭建免费个人博客详细教程</a>  
 
 ### <span id="writing">阿里云</span>  
 - <a href="https://edu.aliyun.com/" type="text/html" target="_blank">阿里云大学</a>  

@@ -117,9 +117,6 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/weixin_39214481/article/details/82023696" target="_blank">从零开始nodejs系列文章-nodejs到底能干什么</a>   
 - <a href="https://blog.csdn.net/ibmall/article/details/81390639" target="_blank">npm 安装 hexo 卡住问题解决</a>   
 - [JS 倒数还能输入多少字](2019/num.html) 
-- <a href="https://www.cnblogs.com/xingyunblog/p/8681205.html" target="_blank">Hexo NexT 博客后台管理指南</a>   
-- <a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank">hexo的next主题个性化教程:打造炫酷网站</a>   
-- <a href="https://www.jianshu.com/p/33bc0a0a6e90" target="_blank">Hexo-修改Hexo主题</a>   
 
 
 
