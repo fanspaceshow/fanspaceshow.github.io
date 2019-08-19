@@ -89,6 +89,8 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/yzy-lengzhu/archive/2013/01/23/2873588.html" type="text/html" target="_blank">JAVA中使用jcifs集成AD域用户认证</a>
 - <a href="https://www.cnblogs.com/zhangzb/p/5200418.html" type="text/html" target="_blank">JDK自带工具keytool生成ssl证书</a>  
 - <a href="https://www.chinassl.net/ssltools/keytool-commands.html" type="text/html" target="_blank">常用的Java Keytool Keystore命令</a>  
+- <a href="https://jingyan.baidu.com/article/ab0b5630b632dbc15afa7dc4.html" type="text/html" target="_blank">Linux平台上搭建apache+tomcat负载均衡集群</a>  
+- <a href="https://www.iteye.com/topic/1017961/" type="text/html" target="_blank">Tomcat和Apache集群和负载均衡配置</a>  
 
 
 
