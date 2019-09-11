@@ -94,6 +94,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/lvhongfen/article/details/42488629" type="text/html" target="_blank">java bean对象去掉所以属性两边空格</a>  
 - <a href="https://github.com/alibaba/arthas" type="text/html" target="_blank">Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas</a>  
 - <a href="https://alibaba.github.io/arthas/" type="text/html" target="_blank">Arthas 用户文档</a>  
+- [java字符串去重](2019/HashSetRemoveDuplicates.md)
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
