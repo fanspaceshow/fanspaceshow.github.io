@@ -98,6 +98,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/xdecode/p/7910969.html" type="text/html" target="_blank"> PDFBox创建并打印PDF文件, 以及缩放问题的处理.</a>  
 - <a href="https://www.cnblogs.com/xdecode/p/7977324.html" type="text/html" target="_blank">Java调用PDFBox打印自定义纸张PDF</a>  
 - <a href="https://sourceforge.net/projects/jacob-project/" type="text/html" target="_blank">JACOB - Java COM Bridge官网</a>  
+- [JAVA打印](2019/print.md)
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
