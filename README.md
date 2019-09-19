@@ -94,7 +94,10 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/lvhongfen/article/details/42488629" type="text/html" target="_blank">java bean对象去掉所以属性两边空格</a>  
 - <a href="https://github.com/alibaba/arthas" type="text/html" target="_blank">Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas</a>  
 - <a href="https://alibaba.github.io/arthas/" type="text/html" target="_blank">Arthas 用户文档</a>  
-- [java字符串去重](2019/HashSetRemoveDuplicates.md)
+- [java字符串去重](2019/HashSetRemoveDuplicates.md)  
+- <a href="https://www.cnblogs.com/xdecode/p/7910969.html" type="text/html" target="_blank"> PDFBox创建并打印PDF文件, 以及缩放问题的处理.</a>  
+- <a href="https://www.cnblogs.com/xdecode/p/7977324.html" type="text/html" target="_blank">Java调用PDFBox打印自定义纸张PDF</a>  
+- <a href="https://sourceforge.net/projects/jacob-project/" type="text/html" target="_blank">JACOB - Java COM Bridge官网</a>  
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
