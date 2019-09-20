@@ -4,7 +4,7 @@ import com.jacob.com.Dispatch;
 import com.jacob.com.Variant;
 import com.jacob.com.ComThread;
 public class StudyJacob {
-    // word文档
+    // word文档
     private Dispatch doc = null ;
     // word运行程序对象
     private ActiveXComponent word = null ;
