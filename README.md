@@ -100,6 +100,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://sourceforge.net/projects/jacob-project/" type="text/html" target="_blank">JACOB - Java COM Bridge官网</a>  
 - [JAVA打印](2019/print.md)  
 - <a href="https://blog.csdn.net/jerome_wang/article/details/84676725" type="text/html" target="_blank">jacob的使用方法总结</a>  
+- [jacobWord案例](2019/jacob-example.md)  
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
