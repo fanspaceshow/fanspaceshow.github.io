@@ -128,7 +128,8 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/weixin_39214481/article/details/82023696" target="_blank">从零开始nodejs系列文章-nodejs到底能干什么</a>   
 - <a href="https://blog.csdn.net/ibmall/article/details/81390639" target="_blank">npm 安装 hexo 卡住问题解决</a>   
 - [JS 倒数还能输入多少字](2019/num.html) 
-- <a href="https://www.cnblogs.com/libingql/archive/2011/07/17/2109020.html" target="_blank">jQueryEasyUI Messager基本使用</a>   
+- <a href="https://www.cnblogs.com/libingql/archive/2011/07/17/2109020.html" target="_blank">jQueryEasyUI Messager基本使用</a> 
+   
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  

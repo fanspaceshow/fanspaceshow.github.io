@@ -45,6 +45,7 @@ ityouknow/spring-boot-examples</a>
 - <a href="http://www.akb48.com.cn/" type="text/html" target="_blank">AKB48</a>  
 - <a href="http://www.jeasyui.com/" type="text/html" target="_blank">jeasyui</a>  
 - <a href="https://developer.mozilla.org/zh-CN/" type="text/html" target="_blank">MDN web docs</a>  
+- <a href="https://www.bootcss.com/p/underscore/" type="text/html" target="_blank">Underscore JavaScript 工具库</a>  
 
 ### <span id="Node">Node.js</span>  
 - <a href="https://nodejs.org/en/" type="text/html" target="_blank">Node.js官网</a>  
