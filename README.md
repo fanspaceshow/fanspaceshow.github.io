@@ -193,6 +193,7 @@ javadoc - The Java API Documentation Generator
 
 ### <span id="vps">&nbsp;VPS</span>  
 - [shadowsocks搭建 Ubuntu版](2018/shadowsocks-set-up.md)  
+- <a href="http://shadowsocks.org/en/index.html" target="_blank">基于SHADOWSOCKS的科学上网</a>  
 
 ### <span id="db">&nbsp;数据库</span>  
 - [join介绍](2018/join.md)  
