@@ -103,6 +103,8 @@ javadoc - The Java API Documentation Generator
 - [jacobWord案例](2019/jacob-example.md)  
 - <a href="https://www.runoob.com/jsp/jsp-custom-tags.html" type="text/html" target="_blank">JSP 自定义标签</a>  
 - <a href="https://www.cnblogs.com/niceyoo/p/10130923.html" type="text/html" target="_blank">jeecg 笔记之 自定义excel 模板导出（一）</a>  
+- <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a>  
+
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
