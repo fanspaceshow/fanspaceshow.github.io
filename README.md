@@ -193,7 +193,6 @@ javadoc - The Java API Documentation Generator
 ### <span id="centos">&nbsp;CentOS</span>  
 - [CentOS shell](2018/ubuntu-shell.md)  
 - [Linux 命令](2019/linux.md)  
-https://blog.csdn.net/qq_40087415/article/details/79367151
 
 ### <span id="vps">&nbsp;VPS</span>  
 - [shadowsocks搭建 Ubuntu版](2018/shadowsocks-set-up.md)  
