@@ -1,6 +1,6 @@
-linux shell命令
+linux shell常用命令
 
-
+### 文件与目录操作
 命令 | 解析
 ---|---
 cd /home | 进入 ‘/home’ 目录
@@ -11,9 +11,35 @@ cp file1 file2 | 将file1复制为file2
 cp -a dir1 dir2 | 复制一个目录
 cp -a /tmp/dir1 . | 复制一个目录到当前工作目录（.代表当前目录）
 ls | 查看目录中的文件
-ls -ltr |	按时间显示文件（l表示详细列表，r表示反向排序，t表示按时间排序）
-rm -f file1 |	删除 ‘file1’
-rm -rf dir1 |	删除 ‘dir1’ 目录及其子目录内容
+ls -ltr | 按时间显示文件（l表示详细列表，r表示反向排序，t表示按时间排序）
+mkdir dir1 | 创建 ‘dir1’ 目录
+mkdir dir1 dir2 | 同时创建两个目录
+mkdir -p /tmp/dir1/dir2 | 创建一个目录树
+mv dir1 dir2 | 移动/重命名一个目录
+rm -f file1 | 删除 ‘file1’
+rm -rf dir1 | 删除 ‘dir1’ 目录及其子目录内容
+pwd | 显示工作路径
+
+
+### 查看文件内容
+命令 | 解析
+---|---
+cat file1 | 从第一个字节开始正向查看文件的内容
+head -2 file1 | 查看一个文件的前两行
+more file1 | 查看一个长文件的内容
+tac file1 | 从最后一行开始反向查看一个文件的内容
+tail -3 file1 | 查看一个文件的最后三行
+vi file | 打开并浏览文件
+
+### 文本内容处理
+命令 | 解析
+---|---
+grep str /tmp/test | 在文件 ‘/tmp/test’ 中查找 “str”
+grep ^str /tmp/test | 在文件 ‘/tmp/test’ 中查找以 “str” 开始的行
+grep [0-9] /tmp/test | 查找 ‘/tmp/test’ 文件中所有包含数字的行
+grep str -r /tmp/* | 在目录 ‘/tmp’ 及其子目录中查找 “str”
+diff file1 file2 | 找出两个文件的不同处
+sdiff file1 file2 | 以对比的方式显示两个文件的不同
 
 
 
@@ -21,6 +47,7 @@ vim
 
 命令 | 解析
 ---|---
+vim file | 打开并浏览文件
 insert | 进入编辑模式
 Esc | 退出编辑模式
 :w | 保存但不退出
@@ -34,17 +61,10 @@ u | 撤销上一步的操作
 
  
 
- 
 	
 	
-	
-	
-
+<!--
 https://blog.csdn.net/qq_40087415/article/details/79367151
-	
-	
-	
-
  常用命令
 文件与目录操作
 命令	解析
@@ -130,7 +150,7 @@ yum clean headers	删除所有头文件
 yum clean all	删除所有缓存的包和头文件
 
  
-
+-->
  
 
            
