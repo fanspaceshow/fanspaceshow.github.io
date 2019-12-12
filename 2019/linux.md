@@ -43,8 +43,7 @@ sdiff file1 file2 | 以对比的方式显示两个文件的不同
 
 
 
-vim
-
+### vim
 命令 | 解析
 ---|---
 vim file | 打开并浏览文件
