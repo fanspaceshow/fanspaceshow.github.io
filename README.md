@@ -105,8 +105,7 @@ javadoc - The Java API Documentation Generator
 - <a href="https://www.cnblogs.com/niceyoo/p/10130923.html" type="text/html" target="_blank">jeecg 笔记之 自定义excel 模板导出（一）</a>  
 - <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a> 
 - <a href="https://blog.csdn.net/zz_ddup/article/details/80118466" type="text/html" target="_blank">把文件或者文件夹打包成jar</a> 
-- <a href="https://www.jianshu.com/p/8dba0bb2f5dd" type="text/html" target="_blank">JasperReport 6.x PDF中文显示问题解决办法详解</a> 
-
+- [JasperReport 6.x PDF中文显示问题解决办法详解](2019/JasperReport.md) 
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
