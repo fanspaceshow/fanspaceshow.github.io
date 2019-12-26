@@ -103,7 +103,9 @@ javadoc - The Java API Documentation Generator
 - [jacobWord案例](2019/jacob-example.md)  
 - <a href="https://www.runoob.com/jsp/jsp-custom-tags.html" type="text/html" target="_blank">JSP 自定义标签</a>  
 - <a href="https://www.cnblogs.com/niceyoo/p/10130923.html" type="text/html" target="_blank">jeecg 笔记之 自定义excel 模板导出（一）</a>  
-- <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a>  
+- <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a> 
+- <a href="https://blog.csdn.net/zz_ddup/article/details/80118466" type="text/html" target="_blank">把文件或者文件夹打包成jar</a> 
+- <a href="https://www.jianshu.com/p/8dba0bb2f5dd" type="text/html" target="_blank">JasperReport 6.x PDF中文显示问题解决办法详解</a> 
 
 
 
