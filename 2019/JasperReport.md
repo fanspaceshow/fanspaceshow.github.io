@@ -28,3 +28,6 @@ erreports-fonts-6.0.0/ .
 ```cmd
 jar cvfm jasperreports-fonts-6.0.0.jar jasperreports-fonts-6.0.0\META-INF\MANIFEST.MF -C jasperreports-fonts-6.0.0/ .
 ```
+
+
+- <a href="https://www.jianshu.com/p/8dba0bb2f5dd" type="text/html" target="_blank">JasperReport 6.x PDF中文显示问题解决办法详解</a> 
