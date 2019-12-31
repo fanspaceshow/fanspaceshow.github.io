@@ -106,6 +106,12 @@ javadoc - The Java API Documentation Generator
 - <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a> 
 - <a href="https://blog.csdn.net/zz_ddup/article/details/80118466" type="text/html" target="_blank">把文件或者文件夹打包成jar</a> 
 - [JasperReport 6.x PDF中文显示问题解决办法详解](2019/JasperReport.md) 
+https://blog.csdn.net/qq_34507736/article/details/83030005
+https://blog.csdn.net/qq_38288172/article/details/82387946
+https://www.jianshu.com/p/a8f6efabfaa6
+https://www.cnblogs.com/wyongbo/p/jnaTest.html#
+https://blog.csdn.net/l527719041/article/details/78670532
+https://blog.csdn.net/vpivot/article/details/41277741
 
 
 ### <span id="JavaScript">&nbsp;JavaScript</span>  
