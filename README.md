@@ -212,7 +212,7 @@ https://blog.csdn.net/vpivot/article/details/41277741
 - [sql server 分组排序](2019/fenzupaixu.md)
 - <a href="https://www.cnblogs.com/POLzj/p/6001381.html" type="text/html" target="_blank">SQL Server 2008 R2[ALTER]列属性修改</a>  
 - [sqlserver禁止management studio的自动提交事务](2019/transaction.md)
-
+- <a href="https://blog.csdn.net/qq_36636312/article/details/98762394" type="text/html" target="_blank">SQL server复制表结构和复制表数据</a>  
 
 ### <span id="regular">&nbsp;正则表达式</span>  
 - [正则表达式简单语法及常用正则表达式](2019/zhengze.md)  
