@@ -108,7 +108,7 @@ javadoc - The Java API Documentation Generator
 - [JasperReport 6.x PDF中文显示问题解决办法详解](2019/JasperReport.md) 
 https://blog.csdn.net/qq_34507736/article/details/83030005
 https://blog.csdn.net/qq_38288172/article/details/82387946
-https://www.jianshu.com/p/a8f6efabfaa6
+https://www.jianshu.com/p/a8f6efabfaa6  
 https://www.cnblogs.com/wyongbo/p/jnaTest.html#
 https://blog.csdn.net/l527719041/article/details/78670532
 https://blog.csdn.net/vpivot/article/details/41277741
@@ -125,6 +125,7 @@ https://blog.csdn.net/lyfls/article/details/78793128
 https://blog.csdn.net/u014265135/article/details/83413266
 https://blog.csdn.net/ecnu18918079120/article/details/78368768
 https://blog.csdn.net/qq_17783559/article/details/78988082
+https://www.jianshu.com/p/68c64845f87f
 
 
 
