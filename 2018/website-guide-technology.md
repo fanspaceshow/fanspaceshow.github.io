@@ -67,8 +67,6 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://www.zhipin.com/" type="text/html" target="_blank">boss直聘</a>  
 
 
-
-
 ### <span id="Python">Python</span>  
 - <a href="https://www.python.org/" type="text/html" target="_blank">Python官网</a>  
 - <a href="https://www.pythontab.com/" type="text/html" target="_blank">PythonTab</a>  
@@ -84,6 +82,7 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank">hexo的next主题个性化教程:打造炫酷网站</a>   
 - <a href="https://www.jianshu.com/p/33bc0a0a6e90" target="_blank">Hexo-修改Hexo主题</a>   
 - <a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank">使用hexo+github搭建免费个人博客详细教程</a>  
+- <a href="http://www.51bbw.cn/show/" target="_blank">附有免费的表白网页一键式生成系统</a>
 
 ### <span id="writing">阿里云</span>  
 - <a href="https://edu.aliyun.com/" type="text/html" target="_blank">阿里云大学</a>  
