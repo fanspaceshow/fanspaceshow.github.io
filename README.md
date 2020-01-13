@@ -186,6 +186,7 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="https://www.cnblogs.com/master-pokemon/p/6136483.html" target="_blank">python import自定义模块方法</a>  
 - [python发布并导入自定义模块](2018/python-import-module.md)  
 - [python编译一个项目.pyc](2018/python-compileall.md)  
+- <a href="https://blog.csdn.net/xiamenglei/article/details/78172980" target="_blank">去除python脚本运行时的小黑框</a>  
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
