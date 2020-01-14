@@ -187,6 +187,7 @@ https://www.jianshu.com/p/68c64845f87f
 - [python发布并导入自定义模块](2018/python-import-module.md)  
 - [python编译一个项目.pyc](2018/python-compileall.md)  
 - <a href="https://blog.csdn.net/xiamenglei/article/details/78172980" target="_blank">去除python脚本运行时的小黑框</a>  
+- <a href="https://www.cnblogs.com/zyt-bg/p/10937634.html" target="_blank">pip安装pyinstaller失败的解决方法</a>  
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
@@ -222,6 +223,7 @@ https://www.jianshu.com/p/68c64845f87f
 - [shadowsocks搭建 Ubuntu版](2018/shadowsocks-set-up.md)  
 - <a href="http://shadowsocks.org/en/index.html" target="_blank">SHADOWSOCKS</a>  
 - <a href="https://zenuo.github.io/blog/%E5%9F%BA%E4%BA%8Eshadowsocks%E7%9A%84%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/" target="_blank">基于SHADOWSOCKS的科学上网</a>  
+- <a href="https://blog.csdn.net/qq_22067469/article/details/86533130" target="_blank">解决GitHub Clone 速度过慢问题</a>  
 
 ### <span id="db">&nbsp;数据库</span>  
 - [join介绍](2018/join.md)  
