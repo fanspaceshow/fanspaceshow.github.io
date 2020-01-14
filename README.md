@@ -188,6 +188,7 @@ https://www.jianshu.com/p/68c64845f87f
 - [python编译一个项目.pyc](2018/python-compileall.md)  
 - <a href="https://blog.csdn.net/xiamenglei/article/details/78172980" target="_blank">去除python脚本运行时的小黑框</a>  
 - <a href="https://www.cnblogs.com/zyt-bg/p/10937634.html" target="_blank">pip安装pyinstaller失败的解决方法</a>  
+- <a href="http://www.pyinstaller.org/downloads.html" target="_blank">pyinstaller</a>  
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
