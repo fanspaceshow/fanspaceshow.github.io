@@ -7,6 +7,7 @@
 - <a href="https://code.ziqiangxuetang.com/" type="text/html" target="_blank">自强学堂 在线教程 - 学习、分享、让你更强！</a>  
 - <a href="https://www.chromedownloads.net/" type="text/html" target="_blank">Chrome历史版本下载</a>  
 - <a href="http://www.android-studio.org/index.php/download/hisversion" type="text/html" target="_blank">android studio历史版本下载</a>  
+- <a href="https://hellogithub.com/" type="text/html" target="_blank">HelloGitHub</a>  
 
 ### 开发工具下载地址
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
