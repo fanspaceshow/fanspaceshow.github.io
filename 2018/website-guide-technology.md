@@ -8,6 +8,7 @@
 - <a href="https://www.chromedownloads.net/" type="text/html" target="_blank">Chrome历史版本下载</a>  
 - <a href="http://www.android-studio.org/index.php/download/hisversion" type="text/html" target="_blank">android studio历史版本下载</a>  
 - <a href="https://hellogithub.com/" type="text/html" target="_blank">HelloGitHub</a>  
+- <a href="https://docs.microsoft.com/zh-cn/windows/python/" type="text/html" target="_blank"> “Windows 上的 Python”文档</a>  
 
 ### 开发工具下载地址
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
