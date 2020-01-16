@@ -103,15 +103,17 @@ graph RL
 A[这是菱形]-->|插入文本|B[方形]
 </div>
 
+### 脑图
 
 <div class="mermaid">
 graph LR
-      A{家庭理财}-->B(现金规划)
-      A-->C[税收筹划]
-      A-->D[消费支出规划]
-      A-->E[投资规划]
-      A-->F[教育规划]
-      A-->G[退休养老规划]
-      A-->H[风险管理与保险规划]
-      A-->I[财产分配与传承规划]
+      A{编程语言}-->B(Java)
+      A-->C[Python]
+      A-->D[NodeJS]
+      A-->E[C]
+      A-->F[C++]
+      A-->G[C#]
+      A-->H[sql]
+      A-->I[HTML]
+      A-->J[css]
 </div>
