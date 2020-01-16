@@ -10,6 +10,7 @@
 - <a href="https://hellogithub.com/" type="text/html" target="_blank">HelloGitHub</a>  
 - <a href="https://docs.microsoft.com/zh-cn/windows/python/" type="text/html" target="_blank"> “Windows 上的 Python”文档</a>  
 - <a href="https://www.iamwawa.cn/guid.html" type="text/html" target="_blank">蛙蛙工具</a>  
+- <a href="http://mermaid-js.github.io/mermaid/#/" type="text/html" target="_blank">mermaid-github</a>  
 
 ### 开发工具下载地址
 - <a href="http://www.eclipse.org/" type="text/html" target="_blank">Eclipse Developer Kit</a>  
