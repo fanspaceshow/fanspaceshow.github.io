@@ -120,4 +120,3 @@ ityouknow/spring-boot-examples</a>
 ### <span id="Ruby">Ruby</span>  
 - <a href="http://www.runoob.com/ruby/ruby-environment.html" type="text/html" target="_blank">Ruby官网</a>  
 
-- [mermaid](/2019/mermaid01.md) 
