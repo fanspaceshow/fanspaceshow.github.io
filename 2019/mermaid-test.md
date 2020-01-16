@@ -6,11 +6,5 @@ graph TD
 </div>
 
 
-##### 自上而下  
-
-<div class="mermaid">
-graph TB
-A-->B
-</div>
 
 
