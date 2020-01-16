@@ -6,19 +6,21 @@ graph TD
 </div>
 
 
-##### 自上而下  
+### 自上而下  
 
 <div class="mermaid">
 graph TB
 A-->B
 </div>
 
-#### 自下而上  
+### 自下而上  
 
 <div class="mermaid">
 graph BT
 A-->B
-</div>
+</div>  
+
+
 #### 从左到右
 
 <div class="mermaid">
@@ -26,7 +28,7 @@ graph LR
 A-->B
 </div>  
 
-#### 从右到左
+### 从右到左
 
 <div class="mermaid">
 graph RL
@@ -35,7 +37,7 @@ A-->B
 
 Example:  
 
-#### 打印机使用说明  
+### 打印机使用说明  
 
 <div class="mermaid">
 graph TB
@@ -45,7 +47,7 @@ graph TB
       C-->|否|E[纠正错误]
 </div>
 
-线框形状调整
+### 线框形状调整
 <div class="mermaid">
 graph RL
 A[这是直角四方形]
@@ -61,7 +63,7 @@ graph RL
 A{这是菱形}
 </div>
 
-箭头调整  
+### 箭头调整  
 
 <div class="mermaid">
 graph RL
