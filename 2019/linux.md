@@ -60,7 +60,7 @@ Esc | 退出编辑模式
 :e! | 放弃所有修改，从上次保存文件开始再编辑命令历史
 :set nu | 显示行号
 u | 撤销上一步的操作
-
+find -name *catalina* | 搜索
 
  
 https://www.cnblogs.com/youqc/p/9402171.html
