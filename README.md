@@ -8,6 +8,8 @@
 
 ### <span id="learn">网址导航</span>  
 - [技术网址导航](2018/website-guide-technology.md)  
+- [我的脑图](2019/mybrainmap.md)  
+
 
 ### <span id="learn">IBM笔记</span>  
 - [IBM-doc-sso.key](2019/IBM-doc-sso.key.md)  
