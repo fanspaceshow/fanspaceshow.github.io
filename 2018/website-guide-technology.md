@@ -58,6 +58,7 @@ ityouknow/spring-boot-examples</a>
 - <a href="http://theme-next.iissnan.com/getting-started.html" type="text/html" target="_blank">NexT 拥有丰富而简单的配置，结合第三方服务，打造属于您自己的博客</a>  
 - <a href="https://www.jianshu.com/p/202c9e789c8f" type="text/html" target="_blank">Hexo Next主题添加搜索功能</a>  
 - <a href="https://www.jianshu.com/p/e17711e44e00" type="text/html" target="_blank">Hexo使用攻略-添加分类及标签</a>  
+- <a href="https://www.jianshu.com/p/ca79e7ca38a4" type="text/html" target="_blank">npm 安装yarn</a>  
 
 ### Web前端框架  
 - <a href="https://blog.csdn.net/qq_35624642/article/details/68482926" type="text/html" target="_blank">推荐几个精致的web UI框架及常用前端UI框架</a>  
