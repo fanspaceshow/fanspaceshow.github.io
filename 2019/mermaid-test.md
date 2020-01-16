@@ -43,7 +43,7 @@ graph TB
       C-->|否|E[纠正错误]
 </div>
 
-线框形状调整
+#### 线框形状调整
 <div class="mermaid">
 graph RL
 A[这是直角四方形]
@@ -57,7 +57,7 @@ graph RL
 A{这是菱形}
 </div>
 
-箭头调整  
+#### 箭头调整  
 
 <div class="mermaid">
 graph RL
