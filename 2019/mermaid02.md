@@ -3,6 +3,7 @@
 <div class="mermaid">
 graph TD
          A-->B
+         style A fill:#ccf,stroke:#f66,stroke-width:2px,stroke-dasharray: 10,5
 </div>
 
 
@@ -13,7 +14,6 @@ graph TD
 <div class="mermaid">
 graph TB
 A-->B
-         style A background:#000
 </div>
 
 ### 自下而上  
