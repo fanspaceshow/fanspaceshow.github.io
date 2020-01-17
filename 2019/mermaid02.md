@@ -13,7 +13,7 @@ graph TD
 <div class="mermaid">
 graph TB
 A-->B
-         style A backgound:#000
+         style A background:#000
 </div>
 
 ### 自下而上  
