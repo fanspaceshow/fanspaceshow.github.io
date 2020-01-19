@@ -1,3 +1,3 @@
 ### 我的脑图  
 
-- [mermaidDemo](mermaidDemo.md) 
+- [mermaid Demo](mermaidDemo.md) 
