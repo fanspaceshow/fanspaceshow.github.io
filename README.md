@@ -8,7 +8,7 @@
 
 ### <span id="learn">网址导航</span>  
 - [技术网址导航](2020/website-guide-technology.md)  
-- [我的脑图](2019/mybrainmap.md)  
+- [我的脑图](2020/mybrainmap.md)  
 
 
 ### <span id="learn">IBM笔记</span>  
