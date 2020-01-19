@@ -7,7 +7,7 @@
 
 
 ### <span id="learn">网址导航</span>  
-- [技术网址导航](2018/website-guide-technology.md)  
+- [技术网址导航](2020/website-guide-technology.md)  
 - [我的脑图](2019/mybrainmap.md)  
 
 

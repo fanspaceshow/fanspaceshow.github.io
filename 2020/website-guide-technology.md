@@ -77,6 +77,7 @@ ityouknow/spring-boot-examples</a>
 - <a href="https://www.pythontab.com/" type="text/html" target="_blank">PythonTab</a>  
 - <a href="http://www.pythondoc.com/" type="text/html" target="_blank">PythonDoc</a>  
 - <a href="https://blog.csdn.net/u012219371/article/details/97315257" type="text/html" target="_blank">pip速度慢，配置国内镜像加速</a>  
+- <a href="http://www.pydev.org/" type="text/html" target="_blank">PyDev is a Python IDE for Eclipse</a>  
 
 
 ### <span id="writing">写作博客</span>  
