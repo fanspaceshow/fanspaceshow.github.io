@@ -168,6 +168,7 @@ https://www.jianshu.com/p/68c64845f87f
 - [jquery dialog using iframe url](2018/jqueryui-dlg.md)  
 - [使用JQUERY时，如何使用js生成UUID？](2018/js-uuid.md)  
 - <a href="https://blog.csdn.net/gaoweizang/article/details/52634174" target="_blank">jquery操作select下拉框：取值，赋值，删除</a>
+- <a href="https://www.cnblogs.com/libingql/archive/2011/07/17/2109020.html" target="_blank">jQueryEasyUI Messager基本使用</a>  
 
 
 ### <span id="android">&nbsp;Android</span>  
