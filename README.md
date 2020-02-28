@@ -172,7 +172,6 @@ https://www.jianshu.com/p/68c64845f87f
 
 
 ### <span id="android">&nbsp;Android</span>  
-- [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
 - <a href="https://jingyan.baidu.com/article/59703552e877f98fc00740f0.html" target="_blank">如何生成android的keystore文件</a>  
 - [Android 取消标题栏](2019/android-actionbar.md)  
 - [布局 LinearLayout](2019/android-linearlayout.md)  
@@ -181,6 +180,8 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="https://www.cnblogs.com/leichentao0905/p/6991761.html" target="_blank">Android OkHttp3（完美封装）Get异步获取数据、Post异步获取数据、Form表单提交、文件下载</a>  
 - <a href="https://blog.csdn.net/zuo_er_lyf/article/details/82254316" target="_blank">Android Studio自带图标制作利器 Image Asset Studio</a>  
 - <a href="https://developer.android.google.cn/guide/" target="_blank">Android 文档</a>  
+- [Kotlin 和 Checked Exception](2018/kotlin-exception.md)  
+- <a href="https://www.kotlincn.net/" target="_blank">kotlincn</a>  
 
 ### <span id="python">&nbsp;Python</span>  
 - <a href="https://github.com/vinta/awesome-python" target="_blank">A curated list of awesome Python frameworks, libraries, software and resources</a>  
