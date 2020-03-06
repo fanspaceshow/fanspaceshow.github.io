@@ -195,6 +195,7 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="http://www.pyinstaller.org/downloads.html" target="_blank">pyinstaller</a>  
 - <a href="https://blog.csdn.net/chunleixiahe/article/details/80505659" target="_blank">win10 平台打包python项目（含有依赖文件夹）为部署文件包（包含exe）</a>  
 - <a href="https://www.cnblogs.com/ExMan/p/11715019.html" target="_blank">python如何发布自已pip项目</a>  
+- <a href="https://sunhwee.com/posts/80fa3a85.html" target="_blank">Python GUI之tkinter窗口视窗教程大集合（看这篇就够了）</a> 
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
