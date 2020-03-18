@@ -240,6 +240,7 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="https://www.cnblogs.com/POLzj/p/6001381.html" type="text/html" target="_blank">SQL Server 2008 R2[ALTER]列属性修改</a>  
 - [sqlserver禁止management studio的自动提交事务](2019/transaction.md)
 - <a href="https://blog.csdn.net/qq_36636312/article/details/98762394" type="text/html" target="_blank">SQL server复制表结构和复制表数据</a>  
+- <a href="https://blog.csdn.net/weixin_44671994/article/details/87720196" type="text/html" target="_blank">update select</a>  
 
 ### <span id="regular">&nbsp;正则表达式</span>  
 - [正则表达式简单语法及常用正则表达式](2019/zhengze.md)  
