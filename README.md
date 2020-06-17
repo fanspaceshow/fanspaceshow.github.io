@@ -4,6 +4,7 @@
 - <a href="http://naotu.baidu.com/home" target="_blank">绘制脑图</a>  
 - <a href="https://aipage.baidu.com/" target="_blank">智能建站和小程序</a>  
 - [装修--产品化思维](2018/zhuangxiu.md)
+- [颜色搭配自动选择器](2020/sehuan/sehuan.html)  
 
 
 ### <span id="learn">网址导航</span>  
@@ -105,10 +106,10 @@ javadoc - The Java API Documentation Generator
 - [jacobWord案例](2019/jacob-example.md)  
 - <a href="https://www.runoob.com/jsp/jsp-custom-tags.html" type="text/html" target="_blank">JSP 自定义标签</a>  
 - <a href="https://www.cnblogs.com/niceyoo/p/10130923.html" type="text/html" target="_blank">jeecg 笔记之 自定义excel 模板导出（一）</a>  
-- <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a> 
-- <a href="https://blog.csdn.net/zz_ddup/article/details/80118466" type="text/html" target="_blank">把文件或者文件夹打包成jar</a> 
+- <a href="https://blog.csdn.net/wkwanglei/article/details/8939277" type="text/html" target="_blank">Jacob 基本函数的说明！</a>
+- <a href="https://blog.csdn.net/zz_ddup/article/details/80118466" type="text/html" target="_blank">把文件或者文件夹打包成jar</a>
 - <a href="https://blog.csdn.net/FairytailRose/article/details/92814408" type="text/html" target="_blank">搭建的SSM框架,启动Tomcat的时候,报严重One or more listeners failed to start. Full details will be found in the appropriate container log file</a>
-- [JasperReport 6.x PDF中文显示问题解决办法详解](2019/JasperReport.md) 
+- [JasperReport 6.x PDF中文显示问题解决办法详解](2019/JasperReport.md)
 https://blog.csdn.net/qq_34507736/article/details/83030005
 https://blog.csdn.net/qq_38288172/article/details/82387946
 https://www.jianshu.com/p/a8f6efabfaa6  
@@ -156,9 +157,9 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="https://www.cnblogs.com/webbest/p/7161174.html" target="_blank">关于iframe跨域实践</a>   
 - <a href="https://blog.csdn.net/weixin_39214481/article/details/82023696" target="_blank">从零开始nodejs系列文章-nodejs到底能干什么</a>   
 - <a href="https://blog.csdn.net/ibmall/article/details/81390639" target="_blank">npm 安装 hexo 卡住问题解决</a>   
-- [JS 倒数还能输入多少字](2019/num.html) 
-- <a href="https://www.cnblogs.com/libingql/archive/2011/07/17/2109020.html" target="_blank">jQueryEasyUI Messager基本使用</a> 
-   
+- [JS 倒数还能输入多少字](2019/num.html)
+- <a href="https://www.cnblogs.com/libingql/archive/2011/07/17/2109020.html" target="_blank">jQueryEasyUI Messager基本使用</a>
+
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  
@@ -195,7 +196,7 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="http://www.pyinstaller.org/downloads.html" target="_blank">pyinstaller</a>  
 - <a href="https://blog.csdn.net/chunleixiahe/article/details/80505659" target="_blank">win10 平台打包python项目（含有依赖文件夹）为部署文件包（包含exe）</a>  
 - <a href="https://www.cnblogs.com/ExMan/p/11715019.html" target="_blank">python如何发布自已pip项目</a>  
-- <a href="https://sunhwee.com/posts/80fa3a85.html" target="_blank">Python GUI之tkinter窗口视窗教程大集合（看这篇就够了）</a> 
+- <a href="https://sunhwee.com/posts/80fa3a85.html" target="_blank">Python GUI之tkinter窗口视窗教程大集合（看这篇就够了）</a>
 
 ### <span id="PHP">&nbsp;PHP</span>  
 - <a href="https://www.zblogcn.com/" target="_blank">Z-Blog</a>  
