@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>js色卡</title>
     <style>
-        .box { border: 1px solid rgba(0,0,0,0.2); width: 550px; margin-top: 20px; margin-left: 20px;}
+        .box { border: 1px solid rgba(0,0,0,0.2); width: 550px; margin-top: 20px;}
         .list {width: 550px;display: flex;}
         .item {height: 50px;flex: 1;}
         input {width: 80px;}
@@ -28,8 +28,8 @@
         <input type="button" value="GO" id="hsvGo">
     </div>
     <div id="box" class="box"></div>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script>
+    <script type="text/javascript" src="../../script/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
         $(function () {
             var dom = $('#box')
             $('#rgbGo').click(function () {
