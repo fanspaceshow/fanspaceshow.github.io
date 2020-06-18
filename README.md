@@ -4,7 +4,7 @@
 - <a href="http://naotu.baidu.com/home" target="_blank">绘制脑图</a>  
 - <a href="https://aipage.baidu.com/" target="_blank">智能建站和小程序</a>  
 - [装修--产品化思维](2018/zhuangxiu.md)
-- [颜色搭配自动选择器](2020/sehuan/sehuan.html)  
+- [颜色搭配自动选择器](2020/sehuan/sehuan-pc.html)  
 
 
 ### <span id="learn">网址导航</span>  
