@@ -159,7 +159,7 @@ https://www.jianshu.com/p/68c64845f87f
 - <a href="https://blog.csdn.net/ibmall/article/details/81390639" target="_blank">npm 安装 hexo 卡住问题解决</a>   
 - [JS 倒数还能输入多少字](2019/num.html)
 - <a href="https://www.cnblogs.com/libingql/archive/2011/07/17/2109020.html" target="_blank">jQueryEasyUI Messager基本使用</a>
-
+- <a href="http://phaser.io/" target="_blank">Phaser - A fast, fun and free open source HTML5 game framework</a>
 
 
 ### <span id="jquery">&nbsp;jQuery</span>  
